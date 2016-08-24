@@ -14,7 +14,7 @@ In order to get this up a running, you have to run through a couple of steps:
   * Find your local ip address and set that as the string ip for the following line:       
   * var explicitEndPoint = new ExplicitProxyEndPoint(IPAddress.Parse(ip), Port, true);
   * where ip should be something like 
-  *var explicitEndPoint = new ExplicitProxyEndPoint(IPAddress.Parse("192.168.0.10"), Port, true);
+  * var explicitEndPoint = new ExplicitProxyEndPoint(IPAddress.Parse("192.168.0.10"), Port, true);
   * Keep the port as is or update the port to whatever you want
 * Then, run the project once to generate the CA certificate. This will add the certificate to your computer. You also need to export this certificate and add it to your android device.
 * Once you have the certifcates in place, set your Pokemon Go device to use the proxy config
