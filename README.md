@@ -2,8 +2,6 @@
 
 This project is a .net MITM proxy designed to read all the API messages sent between the Pokemon Go device and the Pokemon Go servers. By reading this data, you can make informed decisions about which Pokemon to keep, and so on.
 
-The [POGOProtocs](https://github.com/AeonLucid/POGOProtos) repo is used as a source for protoc files.
-
 # Usage
 
 ## Setting Up
@@ -13,7 +11,7 @@ In order to get this up a running, you have to run through a couple of steps:
 * First modify the Ip settings in the ProxyController.cs file
   * Find your local ip address and set that as the string ip for the following line:       
   * var explicitEndPoint = new ExplicitProxyEndPoint(IPAddress.Parse(ip), Port, true);
-  * where ip should be something like 
+  * it should look something like 
   * var explicitEndPoint = new ExplicitProxyEndPoint(IPAddress.Parse("192.168.0.10"), Port, true);
   * Keep the port as is or update the port to whatever you want
 * Then, run the project once to generate the CA certificate. This will add the certificate to your computer. You also need to export this certificate and add it to your android device.
