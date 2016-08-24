@@ -24,26 +24,33 @@ namespace POGOProtos.Data.Logs {
           string.Concat(
             "ChpQT0dPUHJvdG9zLkRhdGEuTG9ncy5wcm90bxIUUE9HT1Byb3Rvcy5EYXRh",
             "LkxvZ3MaFlBPR09Qcm90b3MuRW51bXMucHJvdG8aH1BPR09Qcm90b3MuSW52",
-            "ZW50b3J5Lkl0ZW0ucHJvdG8ixQEKDkFjdGlvbkxvZ0VudHJ5EhQKDHRpbWVz",
+            "ZW50b3J5Lkl0ZW0ucHJvdG8iigIKDkFjdGlvbkxvZ0VudHJ5EhQKDHRpbWVz",
             "dGFtcF9tcxgBIAEoAxINCgVzZmlkYRgCIAEoCBJDCg1jYXRjaF9wb2tlbW9u",
             "GAMgASgLMiouUE9HT1Byb3Rvcy5EYXRhLkxvZ3MuQ2F0Y2hQb2tlbW9uTG9n",
             "RW50cnlIABI/Cgtmb3J0X3NlYXJjaBgEIAEoCzIoLlBPR09Qcm90b3MuRGF0",
-            "YS5Mb2dzLkZvcnRTZWFyY2hMb2dFbnRyeUgAQggKBkFjdGlvbiL3AQoUQ2F0",
-            "Y2hQb2tlbW9uTG9nRW50cnkSQQoGcmVzdWx0GAEgASgOMjEuUE9HT1Byb3Rv",
-            "cy5EYXRhLkxvZ3MuQ2F0Y2hQb2tlbW9uTG9nRW50cnkuUmVzdWx0Ei8KCnBv",
-            "a2Vtb25faWQYAiABKA4yGy5QT0dPUHJvdG9zLkVudW1zLlBva2Vtb25JZBIV",
-            "Cg1jb21iYXRfcG9pbnRzGAMgASgFEhcKD3Bva2Vtb25fZGF0YV9pZBgEIAEo",
-            "BCI7CgZSZXN1bHQSCQoFVU5TRVQQABIUChBQT0tFTU9OX0NBUFRVUkVEEAES",
-            "EAoMUE9LRU1PTl9GTEVEEAIiygEKEkZvcnRTZWFyY2hMb2dFbnRyeRI/CgZy",
-            "ZXN1bHQYASABKA4yLy5QT0dPUHJvdG9zLkRhdGEuTG9ncy5Gb3J0U2VhcmNo",
-            "TG9nRW50cnkuUmVzdWx0Eg8KB2ZvcnRfaWQYAiABKAkSMgoFaXRlbXMYAyAD",
-            "KAsyIy5QT0dPUHJvdG9zLkludmVudG9yeS5JdGVtLkl0ZW1EYXRhEgwKBGVn",
-            "Z3MYBCABKAUiIAoGUmVzdWx0EgkKBVVOU0VUEAASCwoHU1VDQ0VTUxABUABQ",
-            "AWIGcHJvdG8z"));
+            "YS5Mb2dzLkZvcnRTZWFyY2hMb2dFbnRyeUgAEkMKDWJ1ZGR5X3Bva2Vtb24Y",
+            "BSABKAsyKi5QT0dPUHJvdG9zLkRhdGEuTG9ncy5CdWRkeVBva2Vtb25Mb2dF",
+            "bnRyeUgAQggKBkFjdGlvbiLAAQoUQnVkZHlQb2tlbW9uTG9nRW50cnkSQQoG",
+            "cmVzdWx0GAEgASgOMjEuUE9HT1Byb3Rvcy5EYXRhLkxvZ3MuQnVkZHlQb2tl",
+            "bW9uTG9nRW50cnkuUmVzdWx0Ei8KCnBva2Vtb25faWQYAiABKA4yGy5QT0dP",
+            "UHJvdG9zLkVudW1zLlBva2Vtb25JZBIOCgZhbW91bnQYAyABKAUiJAoGUmVz",
+            "dWx0EgkKBVVOU0VUEAASDwoLQ0FORFlfRk9VTkQQASKMAgoUQ2F0Y2hQb2tl",
+            "bW9uTG9nRW50cnkSQQoGcmVzdWx0GAEgASgOMjEuUE9HT1Byb3Rvcy5EYXRh",
+            "LkxvZ3MuQ2F0Y2hQb2tlbW9uTG9nRW50cnkuUmVzdWx0Ei8KCnBva2Vtb25f",
+            "aWQYAiABKA4yGy5QT0dPUHJvdG9zLkVudW1zLlBva2Vtb25JZBIVCg1jb21i",
+            "YXRfcG9pbnRzGAMgASgFEhcKD3Bva2Vtb25fZGF0YV9pZBgEIAEoBiJQCgZS",
+            "ZXN1bHQSCQoFVU5TRVQQABIUChBQT0tFTU9OX0NBUFRVUkVEEAESEAoMUE9L",
+            "RU1PTl9GTEVEEAISEwoPUE9LRU1PTl9IQVRDSEVEEAMiygEKEkZvcnRTZWFy",
+            "Y2hMb2dFbnRyeRI/CgZyZXN1bHQYASABKA4yLy5QT0dPUHJvdG9zLkRhdGEu",
+            "TG9ncy5Gb3J0U2VhcmNoTG9nRW50cnkuUmVzdWx0Eg8KB2ZvcnRfaWQYAiAB",
+            "KAkSMgoFaXRlbXMYAyADKAsyIy5QT0dPUHJvdG9zLkludmVudG9yeS5JdGVt",
+            "Lkl0ZW1EYXRhEgwKBGVnZ3MYBCABKAUiIAoGUmVzdWx0EgkKBVVOU0VUEAAS",
+            "CwoHU1VDQ0VTUxABUABQAWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::POGOProtos.Enums.POGOProtosEnumsReflection.Descriptor, global::POGOProtos.Inventory.Item.POGOProtosInventoryItemReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Logs.ActionLogEntry), global::POGOProtos.Data.Logs.ActionLogEntry.Parser, new[]{ "TimestampMs", "Sfida", "CatchPokemon", "FortSearch" }, new[]{ "Action" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Logs.ActionLogEntry), global::POGOProtos.Data.Logs.ActionLogEntry.Parser, new[]{ "TimestampMs", "Sfida", "CatchPokemon", "FortSearch", "BuddyPokemon" }, new[]{ "Action" }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Logs.BuddyPokemonLogEntry), global::POGOProtos.Data.Logs.BuddyPokemonLogEntry.Parser, new[]{ "Result", "PokemonId", "Amount" }, null, new[]{ typeof(global::POGOProtos.Data.Logs.BuddyPokemonLogEntry.Types.Result) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Logs.CatchPokemonLogEntry), global::POGOProtos.Data.Logs.CatchPokemonLogEntry.Parser, new[]{ "Result", "PokemonId", "CombatPoints", "PokemonDataId" }, null, new[]{ typeof(global::POGOProtos.Data.Logs.CatchPokemonLogEntry.Types.Result) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Data.Logs.FortSearchLogEntry), global::POGOProtos.Data.Logs.FortSearchLogEntry.Parser, new[]{ "Result", "FortId", "Items", "Eggs" }, null, new[]{ typeof(global::POGOProtos.Data.Logs.FortSearchLogEntry.Types.Result) }, null)
           }));
@@ -84,6 +91,9 @@ namespace POGOProtos.Data.Logs {
           break;
         case ActionOneofCase.FortSearch:
           FortSearch = other.FortSearch.Clone();
+          break;
+        case ActionOneofCase.BuddyPokemon:
+          BuddyPokemon = other.BuddyPokemon.Clone();
           break;
       }
 
@@ -138,12 +148,24 @@ namespace POGOProtos.Data.Logs {
       }
     }
 
+    /// <summary>Field number for the "buddy_pokemon" field.</summary>
+    public const int BuddyPokemonFieldNumber = 5;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::POGOProtos.Data.Logs.BuddyPokemonLogEntry BuddyPokemon {
+      get { return actionCase_ == ActionOneofCase.BuddyPokemon ? (global::POGOProtos.Data.Logs.BuddyPokemonLogEntry) action_ : null; }
+      set {
+        action_ = value;
+        actionCase_ = value == null ? ActionOneofCase.None : ActionOneofCase.BuddyPokemon;
+      }
+    }
+
     private object action_;
     /// <summary>Enum of possible cases for the "Action" oneof.</summary>
     public enum ActionOneofCase {
       None = 0,
       CatchPokemon = 3,
       FortSearch = 4,
+      BuddyPokemon = 5,
     }
     private ActionOneofCase actionCase_ = ActionOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -174,6 +196,7 @@ namespace POGOProtos.Data.Logs {
       if (Sfida != other.Sfida) return false;
       if (!object.Equals(CatchPokemon, other.CatchPokemon)) return false;
       if (!object.Equals(FortSearch, other.FortSearch)) return false;
+      if (!object.Equals(BuddyPokemon, other.BuddyPokemon)) return false;
       if (ActionCase != other.ActionCase) return false;
       return true;
     }
@@ -185,6 +208,7 @@ namespace POGOProtos.Data.Logs {
       if (Sfida != false) hash ^= Sfida.GetHashCode();
       if (actionCase_ == ActionOneofCase.CatchPokemon) hash ^= CatchPokemon.GetHashCode();
       if (actionCase_ == ActionOneofCase.FortSearch) hash ^= FortSearch.GetHashCode();
+      if (actionCase_ == ActionOneofCase.BuddyPokemon) hash ^= BuddyPokemon.GetHashCode();
       hash ^= (int) actionCase_;
       return hash;
     }
@@ -212,6 +236,10 @@ namespace POGOProtos.Data.Logs {
         output.WriteRawTag(34);
         output.WriteMessage(FortSearch);
       }
+      if (actionCase_ == ActionOneofCase.BuddyPokemon) {
+        output.WriteRawTag(42);
+        output.WriteMessage(BuddyPokemon);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -228,6 +256,9 @@ namespace POGOProtos.Data.Logs {
       }
       if (actionCase_ == ActionOneofCase.FortSearch) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(FortSearch);
+      }
+      if (actionCase_ == ActionOneofCase.BuddyPokemon) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(BuddyPokemon);
       }
       return size;
     }
@@ -249,6 +280,9 @@ namespace POGOProtos.Data.Logs {
           break;
         case ActionOneofCase.FortSearch:
           FortSearch = other.FortSearch;
+          break;
+        case ActionOneofCase.BuddyPokemon:
+          BuddyPokemon = other.BuddyPokemon;
           break;
       }
 
@@ -288,9 +322,203 @@ namespace POGOProtos.Data.Logs {
             FortSearch = subBuilder;
             break;
           }
+          case 42: {
+            global::POGOProtos.Data.Logs.BuddyPokemonLogEntry subBuilder = new global::POGOProtos.Data.Logs.BuddyPokemonLogEntry();
+            if (actionCase_ == ActionOneofCase.BuddyPokemon) {
+              subBuilder.MergeFrom(BuddyPokemon);
+            }
+            input.ReadMessage(subBuilder);
+            BuddyPokemon = subBuilder;
+            break;
+          }
         }
       }
     }
+
+  }
+
+  public sealed partial class BuddyPokemonLogEntry : pb::IMessage<BuddyPokemonLogEntry> {
+    private static readonly pb::MessageParser<BuddyPokemonLogEntry> _parser = new pb::MessageParser<BuddyPokemonLogEntry>(() => new BuddyPokemonLogEntry());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<BuddyPokemonLogEntry> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::POGOProtos.Data.Logs.POGOProtosDataLogsReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BuddyPokemonLogEntry() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BuddyPokemonLogEntry(BuddyPokemonLogEntry other) : this() {
+      result_ = other.result_;
+      pokemonId_ = other.pokemonId_;
+      amount_ = other.amount_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public BuddyPokemonLogEntry Clone() {
+      return new BuddyPokemonLogEntry(this);
+    }
+
+    /// <summary>Field number for the "result" field.</summary>
+    public const int ResultFieldNumber = 1;
+    private global::POGOProtos.Data.Logs.BuddyPokemonLogEntry.Types.Result result_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::POGOProtos.Data.Logs.BuddyPokemonLogEntry.Types.Result Result {
+      get { return result_; }
+      set {
+        result_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pokemon_id" field.</summary>
+    public const int PokemonIdFieldNumber = 2;
+    private global::POGOProtos.Enums.PokemonId pokemonId_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::POGOProtos.Enums.PokemonId PokemonId {
+      get { return pokemonId_; }
+      set {
+        pokemonId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "amount" field.</summary>
+    public const int AmountFieldNumber = 3;
+    private int amount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Amount {
+      get { return amount_; }
+      set {
+        amount_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as BuddyPokemonLogEntry);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(BuddyPokemonLogEntry other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Result != other.Result) return false;
+      if (PokemonId != other.PokemonId) return false;
+      if (Amount != other.Amount) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Result != 0) hash ^= Result.GetHashCode();
+      if (PokemonId != 0) hash ^= PokemonId.GetHashCode();
+      if (Amount != 0) hash ^= Amount.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Result != 0) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Result);
+      }
+      if (PokemonId != 0) {
+        output.WriteRawTag(16);
+        output.WriteEnum((int) PokemonId);
+      }
+      if (Amount != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Amount);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Result != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Result);
+      }
+      if (PokemonId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) PokemonId);
+      }
+      if (Amount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Amount);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(BuddyPokemonLogEntry other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Result != 0) {
+        Result = other.Result;
+      }
+      if (other.PokemonId != 0) {
+        PokemonId = other.PokemonId;
+      }
+      if (other.Amount != 0) {
+        Amount = other.Amount;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            result_ = (global::POGOProtos.Data.Logs.BuddyPokemonLogEntry.Types.Result) input.ReadEnum();
+            break;
+          }
+          case 16: {
+            pokemonId_ = (global::POGOProtos.Enums.PokemonId) input.ReadEnum();
+            break;
+          }
+          case 24: {
+            Amount = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the BuddyPokemonLogEntry message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public enum Result {
+        [pbr::OriginalName("UNSET")] Unset = 0,
+        [pbr::OriginalName("CANDY_FOUND")] CandyFound = 1,
+      }
+
+    }
+    #endregion
 
   }
 
@@ -301,7 +529,7 @@ namespace POGOProtos.Data.Logs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Data.Logs.POGOProtosDataLogsReflection.Descriptor.MessageTypes[1]; }
+      get { return global::POGOProtos.Data.Logs.POGOProtosDataLogsReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -423,8 +651,8 @@ namespace POGOProtos.Data.Logs {
         output.WriteInt32(CombatPoints);
       }
       if (PokemonDataId != 0UL) {
-        output.WriteRawTag(32);
-        output.WriteUInt64(PokemonDataId);
+        output.WriteRawTag(33);
+        output.WriteFixed64(PokemonDataId);
       }
     }
 
@@ -441,7 +669,7 @@ namespace POGOProtos.Data.Logs {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(CombatPoints);
       }
       if (PokemonDataId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PokemonDataId);
+        size += 1 + 8;
       }
       return size;
     }
@@ -485,8 +713,8 @@ namespace POGOProtos.Data.Logs {
             CombatPoints = input.ReadInt32();
             break;
           }
-          case 32: {
-            PokemonDataId = input.ReadUInt64();
+          case 33: {
+            PokemonDataId = input.ReadFixed64();
             break;
           }
         }
@@ -501,6 +729,7 @@ namespace POGOProtos.Data.Logs {
         [pbr::OriginalName("UNSET")] Unset = 0,
         [pbr::OriginalName("POKEMON_CAPTURED")] PokemonCaptured = 1,
         [pbr::OriginalName("POKEMON_FLED")] PokemonFled = 2,
+        [pbr::OriginalName("POKEMON_HATCHED")] PokemonHatched = 3,
       }
 
     }
@@ -515,7 +744,7 @@ namespace POGOProtos.Data.Logs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Data.Logs.POGOProtosDataLogsReflection.Descriptor.MessageTypes[2]; }
+      get { return global::POGOProtos.Data.Logs.POGOProtosDataLogsReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -23,63 +23,67 @@ namespace POGOProtos.Inventory {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChpQT0dPUHJvdG9zLkludmVudG9yeS5wcm90bxIUUE9HT1Byb3Rvcy5JbnZl",
-            "bnRvcnkaH1BPR09Qcm90b3MuSW52ZW50b3J5Lkl0ZW0ucHJvdG8aFVBPR09Q",
-            "cm90b3MuRGF0YS5wcm90bxocUE9HT1Byb3Rvcy5EYXRhLlBsYXllci5wcm90",
-            "bxoWUE9HT1Byb3Rvcy5FbnVtcy5wcm90byKgAQoLQXBwbGllZEl0ZW0SMgoH",
+            "bnRvcnkaH1BPR09Qcm90b3MuSW52ZW50b3J5Lkl0ZW0ucHJvdG8aFlBPR09Q",
+            "cm90b3MuRW51bXMucHJvdG8aFVBPR09Qcm90b3MuRGF0YS5wcm90bxocUE9H",
+            "T1Byb3Rvcy5EYXRhLlBsYXllci5wcm90byKgAQoLQXBwbGllZEl0ZW0SMgoH",
             "aXRlbV9pZBgBIAEoDjIhLlBPR09Qcm90b3MuSW52ZW50b3J5Lkl0ZW0uSXRl",
             "bUlkEjYKCWl0ZW1fdHlwZRgCIAEoDjIjLlBPR09Qcm90b3MuSW52ZW50b3J5",
             "Lkl0ZW0uSXRlbVR5cGUSEQoJZXhwaXJlX21zGAMgASgDEhIKCmFwcGxpZWRf",
             "bXMYBCABKAMiPwoMQXBwbGllZEl0ZW1zEi8KBGl0ZW0YBCADKAsyIS5QT0dP",
-            "UHJvdG9zLkludmVudG9yeS5BcHBsaWVkSXRlbSLtAQoMRWdnSW5jdWJhdG9y",
-            "EgoKAmlkGAEgASgJEjIKB2l0ZW1faWQYAiABKA4yIS5QT0dPUHJvdG9zLklu",
-            "dmVudG9yeS5JdGVtLkl0ZW1JZBI+Cg5pbmN1YmF0b3JfdHlwZRgDIAEoDjIm",
-            "LlBPR09Qcm90b3MuSW52ZW50b3J5LkVnZ0luY3ViYXRvclR5cGUSFgoOdXNl",
-            "c19yZW1haW5pbmcYBCABKAUSEgoKcG9rZW1vbl9pZBgFIAEoBBIXCg9zdGFy",
-            "dF9rbV93YWxrZWQYBiABKAESGAoQdGFyZ2V0X2ttX3dhbGtlZBgHIAEoASJK",
-            "Cg1FZ2dJbmN1YmF0b3JzEjkKDWVnZ19pbmN1YmF0b3IYASADKAsyIi5QT0dP",
-            "UHJvdG9zLkludmVudG9yeS5FZ2dJbmN1YmF0b3IihwEKDkludmVudG9yeURl",
-            "bHRhEh0KFW9yaWdpbmFsX3RpbWVzdGFtcF9tcxgBIAEoAxIYChBuZXdfdGlt",
-            "ZXN0YW1wX21zGAIgASgDEjwKD2ludmVudG9yeV9pdGVtcxgDIAMoCzIjLlBP",
-            "R09Qcm90b3MuSW52ZW50b3J5LkludmVudG9yeUl0ZW0ijgEKDUludmVudG9y",
-            "eUl0ZW0SHQoVbW9kaWZpZWRfdGltZXN0YW1wX21zGAEgASgDEhgKEGRlbGV0",
-            "ZWRfaXRlbV9rZXkYAiABKAMSRAoTaW52ZW50b3J5X2l0ZW1fZGF0YRgDIAEo",
-            "CzInLlBPR09Qcm90b3MuSW52ZW50b3J5LkludmVudG9yeUl0ZW1EYXRhIuME",
-            "ChFJbnZlbnRvcnlJdGVtRGF0YRIyCgxwb2tlbW9uX2RhdGEYASABKAsyHC5Q",
-            "T0dPUHJvdG9zLkRhdGEuUG9rZW1vbkRhdGESMQoEaXRlbRgCIAEoCzIjLlBP",
-            "R09Qcm90b3MuSW52ZW50b3J5Lkl0ZW0uSXRlbURhdGESNAoNcG9rZWRleF9l",
-            "bnRyeRgDIAEoCzIdLlBPR09Qcm90b3MuRGF0YS5Qb2tlZGV4RW50cnkSOQoM",
-            "cGxheWVyX3N0YXRzGAQgASgLMiMuUE9HT1Byb3Rvcy5EYXRhLlBsYXllci5Q",
-            "bGF5ZXJTdGF0cxI/Cg9wbGF5ZXJfY3VycmVuY3kYBSABKAsyJi5QT0dPUHJv",
-            "dG9zLkRhdGEuUGxheWVyLlBsYXllckN1cnJlbmN5EjsKDXBsYXllcl9jYW1l",
-            "cmEYBiABKAsyJC5QT0dPUHJvdG9zLkRhdGEuUGxheWVyLlBsYXllckNhbWVy",
-            "YRJDChJpbnZlbnRvcnlfdXBncmFkZXMYByABKAsyJy5QT0dPUHJvdG9zLklu",
-            "dmVudG9yeS5JbnZlbnRvcnlVcGdyYWRlcxI5Cg1hcHBsaWVkX2l0ZW1zGAgg",
-            "ASgLMiIuUE9HT1Byb3Rvcy5JbnZlbnRvcnkuQXBwbGllZEl0ZW1zEjsKDmVn",
-            "Z19pbmN1YmF0b3JzGAkgASgLMiMuUE9HT1Byb3Rvcy5JbnZlbnRvcnkuRWdn",
-            "SW5jdWJhdG9ycxI7Cg5wb2tlbW9uX2ZhbWlseRgKIAEoCzIjLlBPR09Qcm90",
-            "b3MuSW52ZW50b3J5LlBva2Vtb25GYW1pbHkipAEKEEludmVudG9yeVVwZ3Jh",
-            "ZGUSMgoHaXRlbV9pZBgBIAEoDjIhLlBPR09Qcm90b3MuSW52ZW50b3J5Lkl0",
-            "ZW0uSXRlbUlkEkAKDHVwZ3JhZGVfdHlwZRgCIAEoDjIqLlBPR09Qcm90b3Mu",
-            "SW52ZW50b3J5LkludmVudG9yeVVwZ3JhZGVUeXBlEhoKEmFkZGl0aW9uYWxf",
-            "c3RvcmFnZRgDIAEoBSJXChFJbnZlbnRvcnlVcGdyYWRlcxJCChJpbnZlbnRv",
-            "cnlfdXBncmFkZXMYASADKAsyJi5QT0dPUHJvdG9zLkludmVudG9yeS5JbnZl",
-            "bnRvcnlVcGdyYWRlIlQKDVBva2Vtb25GYW1pbHkSNAoJZmFtaWx5X2lkGAEg",
-            "ASgOMiEuUE9HT1Byb3Rvcy5FbnVtcy5Qb2tlbW9uRmFtaWx5SWQSDQoFY2Fu",
-            "ZHkYAiABKAUqPwoQRWdnSW5jdWJhdG9yVHlwZRITCg9JTkNVQkFUT1JfVU5T",
-            "RVQQABIWChJJTkNVQkFUT1JfRElTVEFOQ0UQASpiChRJbnZlbnRvcnlVcGdy",
-            "YWRlVHlwZRIRCg1VUEdSQURFX1VOU0VUEAASGQoVSU5DUkVBU0VfSVRFTV9T",
-            "VE9SQUdFEAESHAoYSU5DUkVBU0VfUE9LRU1PTl9TVE9SQUdFEAJQAFABUAJQ",
-            "A2IGcHJvdG8z"));
+            "UHJvdG9zLkludmVudG9yeS5BcHBsaWVkSXRlbSJMCgVDYW5keRI0CglmYW1p",
+            "bHlfaWQYASABKA4yIS5QT0dPUHJvdG9zLkVudW1zLlBva2Vtb25GYW1pbHlJ",
+            "ZBINCgVjYW5keRgCIAEoBSLtAQoMRWdnSW5jdWJhdG9yEgoKAmlkGAEgASgJ",
+            "EjIKB2l0ZW1faWQYAiABKA4yIS5QT0dPUHJvdG9zLkludmVudG9yeS5JdGVt",
+            "Lkl0ZW1JZBI+Cg5pbmN1YmF0b3JfdHlwZRgDIAEoDjImLlBPR09Qcm90b3Mu",
+            "SW52ZW50b3J5LkVnZ0luY3ViYXRvclR5cGUSFgoOdXNlc19yZW1haW5pbmcY",
+            "BCABKAUSEgoKcG9rZW1vbl9pZBgFIAEoBBIXCg9zdGFydF9rbV93YWxrZWQY",
+            "BiABKAESGAoQdGFyZ2V0X2ttX3dhbGtlZBgHIAEoASJKCg1FZ2dJbmN1YmF0",
+            "b3JzEjkKDWVnZ19pbmN1YmF0b3IYASADKAsyIi5QT0dPUHJvdG9zLkludmVu",
+            "dG9yeS5FZ2dJbmN1YmF0b3IihwEKDkludmVudG9yeURlbHRhEh0KFW9yaWdp",
+            "bmFsX3RpbWVzdGFtcF9tcxgBIAEoAxIYChBuZXdfdGltZXN0YW1wX21zGAIg",
+            "ASgDEjwKD2ludmVudG9yeV9pdGVtcxgDIAMoCzIjLlBPR09Qcm90b3MuSW52",
+            "ZW50b3J5LkludmVudG9yeUl0ZW0i3gEKDUludmVudG9yeUl0ZW0SHQoVbW9k",
+            "aWZpZWRfdGltZXN0YW1wX21zGAEgASgDEkUKDGRlbGV0ZWRfaXRlbRgCIAEo",
+            "CzIvLlBPR09Qcm90b3MuSW52ZW50b3J5LkludmVudG9yeUl0ZW0uRGVsZXRl",
+            "ZEl0ZW0SRAoTaW52ZW50b3J5X2l0ZW1fZGF0YRgDIAEoCzInLlBPR09Qcm90",
+            "b3MuSW52ZW50b3J5LkludmVudG9yeUl0ZW1EYXRhGiEKC0RlbGV0ZWRJdGVt",
+            "EhIKCnBva2Vtb25faWQYASABKAYi0gQKEUludmVudG9yeUl0ZW1EYXRhEjIK",
+            "DHBva2Vtb25fZGF0YRgBIAEoCzIcLlBPR09Qcm90b3MuRGF0YS5Qb2tlbW9u",
+            "RGF0YRIxCgRpdGVtGAIgASgLMiMuUE9HT1Byb3Rvcy5JbnZlbnRvcnkuSXRl",
+            "bS5JdGVtRGF0YRI0Cg1wb2tlZGV4X2VudHJ5GAMgASgLMh0uUE9HT1Byb3Rv",
+            "cy5EYXRhLlBva2VkZXhFbnRyeRI5CgxwbGF5ZXJfc3RhdHMYBCABKAsyIy5Q",
+            "T0dPUHJvdG9zLkRhdGEuUGxheWVyLlBsYXllclN0YXRzEj8KD3BsYXllcl9j",
+            "dXJyZW5jeRgFIAEoCzImLlBPR09Qcm90b3MuRGF0YS5QbGF5ZXIuUGxheWVy",
+            "Q3VycmVuY3kSOwoNcGxheWVyX2NhbWVyYRgGIAEoCzIkLlBPR09Qcm90b3Mu",
+            "RGF0YS5QbGF5ZXIuUGxheWVyQ2FtZXJhEkMKEmludmVudG9yeV91cGdyYWRl",
+            "cxgHIAEoCzInLlBPR09Qcm90b3MuSW52ZW50b3J5LkludmVudG9yeVVwZ3Jh",
+            "ZGVzEjkKDWFwcGxpZWRfaXRlbXMYCCABKAsyIi5QT0dPUHJvdG9zLkludmVu",
+            "dG9yeS5BcHBsaWVkSXRlbXMSOwoOZWdnX2luY3ViYXRvcnMYCSABKAsyIy5Q",
+            "T0dPUHJvdG9zLkludmVudG9yeS5FZ2dJbmN1YmF0b3JzEioKBWNhbmR5GAog",
+            "ASgLMhsuUE9HT1Byb3Rvcy5JbnZlbnRvcnkuQ2FuZHkipAEKEEludmVudG9y",
+            "eVVwZ3JhZGUSMgoHaXRlbV9pZBgBIAEoDjIhLlBPR09Qcm90b3MuSW52ZW50",
+            "b3J5Lkl0ZW0uSXRlbUlkEkAKDHVwZ3JhZGVfdHlwZRgCIAEoDjIqLlBPR09Q",
+            "cm90b3MuSW52ZW50b3J5LkludmVudG9yeVVwZ3JhZGVUeXBlEhoKEmFkZGl0",
+            "aW9uYWxfc3RvcmFnZRgDIAEoBSJXChFJbnZlbnRvcnlVcGdyYWRlcxJCChJp",
+            "bnZlbnRvcnlfdXBncmFkZXMYASADKAsyJi5QT0dPUHJvdG9zLkludmVudG9y",
+            "eS5JbnZlbnRvcnlVcGdyYWRlIlQKDVBva2Vtb25GYW1pbHkSNAoJZmFtaWx5",
+            "X2lkGAEgASgOMiEuUE9HT1Byb3Rvcy5FbnVtcy5Qb2tlbW9uRmFtaWx5SWQS",
+            "DQoFY2FuZHkYAiABKAUqPwoQRWdnSW5jdWJhdG9yVHlwZRITCg9JTkNVQkFU",
+            "T1JfVU5TRVQQABIWChJJTkNVQkFUT1JfRElTVEFOQ0UQASpiChRJbnZlbnRv",
+            "cnlVcGdyYWRlVHlwZRIRCg1VUEdSQURFX1VOU0VUEAASGQoVSU5DUkVBU0Vf",
+            "SVRFTV9TVE9SQUdFEAESHAoYSU5DUkVBU0VfUE9LRU1PTl9TVE9SQUdFEAJQ",
+            "AFABUAJQA2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::POGOProtos.Inventory.Item.POGOProtosInventoryItemReflection.Descriptor, global::POGOProtos.Data.POGOProtosDataReflection.Descriptor, global::POGOProtos.Data.Player.POGOProtosDataPlayerReflection.Descriptor, global::POGOProtos.Enums.POGOProtosEnumsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::POGOProtos.Inventory.Item.POGOProtosInventoryItemReflection.Descriptor, global::POGOProtos.Enums.POGOProtosEnumsReflection.Descriptor, global::POGOProtos.Data.POGOProtosDataReflection.Descriptor, global::POGOProtos.Data.Player.POGOProtosDataPlayerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::POGOProtos.Inventory.EggIncubatorType), typeof(global::POGOProtos.Inventory.InventoryUpgradeType), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.AppliedItem), global::POGOProtos.Inventory.AppliedItem.Parser, new[]{ "ItemId", "ItemType", "ExpireMs", "AppliedMs" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.AppliedItems), global::POGOProtos.Inventory.AppliedItems.Parser, new[]{ "Item" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.Candy), global::POGOProtos.Inventory.Candy.Parser, new[]{ "FamilyId", "Candy_" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.EggIncubator), global::POGOProtos.Inventory.EggIncubator.Parser, new[]{ "Id", "ItemId", "IncubatorType", "UsesRemaining", "PokemonId", "StartKmWalked", "TargetKmWalked" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.EggIncubators), global::POGOProtos.Inventory.EggIncubators.Parser, new[]{ "EggIncubator" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryDelta), global::POGOProtos.Inventory.InventoryDelta.Parser, new[]{ "OriginalTimestampMs", "NewTimestampMs", "InventoryItems" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryItem), global::POGOProtos.Inventory.InventoryItem.Parser, new[]{ "ModifiedTimestampMs", "DeletedItemKey", "InventoryItemData" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryItemData), global::POGOProtos.Inventory.InventoryItemData.Parser, new[]{ "PokemonData", "Item", "PokedexEntry", "PlayerStats", "PlayerCurrency", "PlayerCamera", "InventoryUpgrades", "AppliedItems", "EggIncubators", "PokemonFamily" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryItem), global::POGOProtos.Inventory.InventoryItem.Parser, new[]{ "ModifiedTimestampMs", "DeletedItem", "InventoryItemData" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryItem.Types.DeletedItem), global::POGOProtos.Inventory.InventoryItem.Types.DeletedItem.Parser, new[]{ "PokemonId" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryItemData), global::POGOProtos.Inventory.InventoryItemData.Parser, new[]{ "PokemonData", "Item", "PokedexEntry", "PlayerStats", "PlayerCurrency", "PlayerCamera", "InventoryUpgrades", "AppliedItems", "EggIncubators", "Candy" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryUpgrade), global::POGOProtos.Inventory.InventoryUpgrade.Parser, new[]{ "ItemId", "UpgradeType", "AdditionalStorage" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.InventoryUpgrades), global::POGOProtos.Inventory.InventoryUpgrades.Parser, new[]{ "InventoryUpgrades_" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Inventory.PokemonFamily), global::POGOProtos.Inventory.PokemonFamily.Parser, new[]{ "FamilyId", "Candy" }, null, null, null)
@@ -413,6 +417,151 @@ namespace POGOProtos.Inventory {
 
   }
 
+  public sealed partial class Candy : pb::IMessage<Candy> {
+    private static readonly pb::MessageParser<Candy> _parser = new pb::MessageParser<Candy>(() => new Candy());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Candy> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Candy() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Candy(Candy other) : this() {
+      familyId_ = other.familyId_;
+      candy_ = other.candy_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Candy Clone() {
+      return new Candy(this);
+    }
+
+    /// <summary>Field number for the "family_id" field.</summary>
+    public const int FamilyIdFieldNumber = 1;
+    private global::POGOProtos.Enums.PokemonFamilyId familyId_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::POGOProtos.Enums.PokemonFamilyId FamilyId {
+      get { return familyId_; }
+      set {
+        familyId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "candy" field.</summary>
+    public const int Candy_FieldNumber = 2;
+    private int candy_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Candy_ {
+      get { return candy_; }
+      set {
+        candy_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Candy);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Candy other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (FamilyId != other.FamilyId) return false;
+      if (Candy_ != other.Candy_) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (FamilyId != 0) hash ^= FamilyId.GetHashCode();
+      if (Candy_ != 0) hash ^= Candy_.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (FamilyId != 0) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) FamilyId);
+      }
+      if (Candy_ != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Candy_);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (FamilyId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) FamilyId);
+      }
+      if (Candy_ != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Candy_);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Candy other) {
+      if (other == null) {
+        return;
+      }
+      if (other.FamilyId != 0) {
+        FamilyId = other.FamilyId;
+      }
+      if (other.Candy_ != 0) {
+        Candy_ = other.Candy_;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            familyId_ = (global::POGOProtos.Enums.PokemonFamilyId) input.ReadEnum();
+            break;
+          }
+          case 16: {
+            Candy_ = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class EggIncubator : pb::IMessage<EggIncubator> {
     private static readonly pb::MessageParser<EggIncubator> _parser = new pb::MessageParser<EggIncubator>(() => new EggIncubator());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -420,7 +569,7 @@ namespace POGOProtos.Inventory {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[2]; }
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -708,7 +857,7 @@ namespace POGOProtos.Inventory {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[3]; }
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -817,7 +966,7 @@ namespace POGOProtos.Inventory {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[4]; }
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -982,7 +1131,7 @@ namespace POGOProtos.Inventory {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[5]; }
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1000,7 +1149,7 @@ namespace POGOProtos.Inventory {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public InventoryItem(InventoryItem other) : this() {
       modifiedTimestampMs_ = other.modifiedTimestampMs_;
-      deletedItemKey_ = other.deletedItemKey_;
+      DeletedItem = other.deletedItem_ != null ? other.DeletedItem.Clone() : null;
       InventoryItemData = other.inventoryItemData_ != null ? other.InventoryItemData.Clone() : null;
     }
 
@@ -1020,14 +1169,14 @@ namespace POGOProtos.Inventory {
       }
     }
 
-    /// <summary>Field number for the "deleted_item_key" field.</summary>
-    public const int DeletedItemKeyFieldNumber = 2;
-    private long deletedItemKey_;
+    /// <summary>Field number for the "deleted_item" field.</summary>
+    public const int DeletedItemFieldNumber = 2;
+    private global::POGOProtos.Inventory.InventoryItem.Types.DeletedItem deletedItem_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long DeletedItemKey {
-      get { return deletedItemKey_; }
+    public global::POGOProtos.Inventory.InventoryItem.Types.DeletedItem DeletedItem {
+      get { return deletedItem_; }
       set {
-        deletedItemKey_ = value;
+        deletedItem_ = value;
       }
     }
 
@@ -1056,7 +1205,7 @@ namespace POGOProtos.Inventory {
         return true;
       }
       if (ModifiedTimestampMs != other.ModifiedTimestampMs) return false;
-      if (DeletedItemKey != other.DeletedItemKey) return false;
+      if (!object.Equals(DeletedItem, other.DeletedItem)) return false;
       if (!object.Equals(InventoryItemData, other.InventoryItemData)) return false;
       return true;
     }
@@ -1065,7 +1214,7 @@ namespace POGOProtos.Inventory {
     public override int GetHashCode() {
       int hash = 1;
       if (ModifiedTimestampMs != 0L) hash ^= ModifiedTimestampMs.GetHashCode();
-      if (DeletedItemKey != 0L) hash ^= DeletedItemKey.GetHashCode();
+      if (deletedItem_ != null) hash ^= DeletedItem.GetHashCode();
       if (inventoryItemData_ != null) hash ^= InventoryItemData.GetHashCode();
       return hash;
     }
@@ -1081,9 +1230,9 @@ namespace POGOProtos.Inventory {
         output.WriteRawTag(8);
         output.WriteInt64(ModifiedTimestampMs);
       }
-      if (DeletedItemKey != 0L) {
-        output.WriteRawTag(16);
-        output.WriteInt64(DeletedItemKey);
+      if (deletedItem_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(DeletedItem);
       }
       if (inventoryItemData_ != null) {
         output.WriteRawTag(26);
@@ -1097,8 +1246,8 @@ namespace POGOProtos.Inventory {
       if (ModifiedTimestampMs != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(ModifiedTimestampMs);
       }
-      if (DeletedItemKey != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(DeletedItemKey);
+      if (deletedItem_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(DeletedItem);
       }
       if (inventoryItemData_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(InventoryItemData);
@@ -1114,8 +1263,11 @@ namespace POGOProtos.Inventory {
       if (other.ModifiedTimestampMs != 0L) {
         ModifiedTimestampMs = other.ModifiedTimestampMs;
       }
-      if (other.DeletedItemKey != 0L) {
-        DeletedItemKey = other.DeletedItemKey;
+      if (other.deletedItem_ != null) {
+        if (deletedItem_ == null) {
+          deletedItem_ = new global::POGOProtos.Inventory.InventoryItem.Types.DeletedItem();
+        }
+        DeletedItem.MergeFrom(other.DeletedItem);
       }
       if (other.inventoryItemData_ != null) {
         if (inventoryItemData_ == null) {
@@ -1137,8 +1289,11 @@ namespace POGOProtos.Inventory {
             ModifiedTimestampMs = input.ReadInt64();
             break;
           }
-          case 16: {
-            DeletedItemKey = input.ReadInt64();
+          case 18: {
+            if (deletedItem_ == null) {
+              deletedItem_ = new global::POGOProtos.Inventory.InventoryItem.Types.DeletedItem();
+            }
+            input.ReadMessage(deletedItem_);
             break;
           }
           case 26: {
@@ -1152,6 +1307,130 @@ namespace POGOProtos.Inventory {
       }
     }
 
+    #region Nested types
+    /// <summary>Container for nested types declared in the InventoryItem message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class DeletedItem : pb::IMessage<DeletedItem> {
+        private static readonly pb::MessageParser<DeletedItem> _parser = new pb::MessageParser<DeletedItem>(() => new DeletedItem());
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<DeletedItem> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::POGOProtos.Inventory.InventoryItem.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DeletedItem() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DeletedItem(DeletedItem other) : this() {
+          pokemonId_ = other.pokemonId_;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DeletedItem Clone() {
+          return new DeletedItem(this);
+        }
+
+        /// <summary>Field number for the "pokemon_id" field.</summary>
+        public const int PokemonIdFieldNumber = 1;
+        private ulong pokemonId_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public ulong PokemonId {
+          get { return pokemonId_; }
+          set {
+            pokemonId_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as DeletedItem);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(DeletedItem other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (PokemonId != other.PokemonId) return false;
+          return true;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (PokemonId != 0UL) hash ^= PokemonId.GetHashCode();
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (PokemonId != 0UL) {
+            output.WriteRawTag(9);
+            output.WriteFixed64(PokemonId);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (PokemonId != 0UL) {
+            size += 1 + 8;
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(DeletedItem other) {
+          if (other == null) {
+            return;
+          }
+          if (other.PokemonId != 0UL) {
+            PokemonId = other.PokemonId;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                input.SkipLastField();
+                break;
+              case 9: {
+                PokemonId = input.ReadFixed64();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
+
   }
 
   public sealed partial class InventoryItemData : pb::IMessage<InventoryItemData> {
@@ -1161,7 +1440,7 @@ namespace POGOProtos.Inventory {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[6]; }
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1187,7 +1466,7 @@ namespace POGOProtos.Inventory {
       InventoryUpgrades = other.inventoryUpgrades_ != null ? other.InventoryUpgrades.Clone() : null;
       AppliedItems = other.appliedItems_ != null ? other.AppliedItems.Clone() : null;
       EggIncubators = other.eggIncubators_ != null ? other.EggIncubators.Clone() : null;
-      PokemonFamily = other.pokemonFamily_ != null ? other.PokemonFamily.Clone() : null;
+      Candy = other.candy_ != null ? other.Candy.Clone() : null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1294,14 +1573,14 @@ namespace POGOProtos.Inventory {
       }
     }
 
-    /// <summary>Field number for the "pokemon_family" field.</summary>
-    public const int PokemonFamilyFieldNumber = 10;
-    private global::POGOProtos.Inventory.PokemonFamily pokemonFamily_;
+    /// <summary>Field number for the "candy" field.</summary>
+    public const int CandyFieldNumber = 10;
+    private global::POGOProtos.Inventory.Candy candy_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::POGOProtos.Inventory.PokemonFamily PokemonFamily {
-      get { return pokemonFamily_; }
+    public global::POGOProtos.Inventory.Candy Candy {
+      get { return candy_; }
       set {
-        pokemonFamily_ = value;
+        candy_ = value;
       }
     }
 
@@ -1327,7 +1606,7 @@ namespace POGOProtos.Inventory {
       if (!object.Equals(InventoryUpgrades, other.InventoryUpgrades)) return false;
       if (!object.Equals(AppliedItems, other.AppliedItems)) return false;
       if (!object.Equals(EggIncubators, other.EggIncubators)) return false;
-      if (!object.Equals(PokemonFamily, other.PokemonFamily)) return false;
+      if (!object.Equals(Candy, other.Candy)) return false;
       return true;
     }
 
@@ -1343,7 +1622,7 @@ namespace POGOProtos.Inventory {
       if (inventoryUpgrades_ != null) hash ^= InventoryUpgrades.GetHashCode();
       if (appliedItems_ != null) hash ^= AppliedItems.GetHashCode();
       if (eggIncubators_ != null) hash ^= EggIncubators.GetHashCode();
-      if (pokemonFamily_ != null) hash ^= PokemonFamily.GetHashCode();
+      if (candy_ != null) hash ^= Candy.GetHashCode();
       return hash;
     }
 
@@ -1390,9 +1669,9 @@ namespace POGOProtos.Inventory {
         output.WriteRawTag(74);
         output.WriteMessage(EggIncubators);
       }
-      if (pokemonFamily_ != null) {
+      if (candy_ != null) {
         output.WriteRawTag(82);
-        output.WriteMessage(PokemonFamily);
+        output.WriteMessage(Candy);
       }
     }
 
@@ -1426,8 +1705,8 @@ namespace POGOProtos.Inventory {
       if (eggIncubators_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(EggIncubators);
       }
-      if (pokemonFamily_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PokemonFamily);
+      if (candy_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Candy);
       }
       return size;
     }
@@ -1491,11 +1770,11 @@ namespace POGOProtos.Inventory {
         }
         EggIncubators.MergeFrom(other.EggIncubators);
       }
-      if (other.pokemonFamily_ != null) {
-        if (pokemonFamily_ == null) {
-          pokemonFamily_ = new global::POGOProtos.Inventory.PokemonFamily();
+      if (other.candy_ != null) {
+        if (candy_ == null) {
+          candy_ = new global::POGOProtos.Inventory.Candy();
         }
-        PokemonFamily.MergeFrom(other.PokemonFamily);
+        Candy.MergeFrom(other.Candy);
       }
     }
 
@@ -1571,10 +1850,10 @@ namespace POGOProtos.Inventory {
             break;
           }
           case 82: {
-            if (pokemonFamily_ == null) {
-              pokemonFamily_ = new global::POGOProtos.Inventory.PokemonFamily();
+            if (candy_ == null) {
+              candy_ = new global::POGOProtos.Inventory.Candy();
             }
-            input.ReadMessage(pokemonFamily_);
+            input.ReadMessage(candy_);
             break;
           }
         }
@@ -1590,7 +1869,7 @@ namespace POGOProtos.Inventory {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[7]; }
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1763,7 +2042,7 @@ namespace POGOProtos.Inventory {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[8]; }
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1872,7 +2151,7 @@ namespace POGOProtos.Inventory {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[9]; }
+      get { return global::POGOProtos.Inventory.POGOProtosInventoryReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

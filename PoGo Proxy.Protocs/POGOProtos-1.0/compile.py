@@ -33,14 +33,13 @@ tmp_out_path = out_path
 if lang == "csharp":
     tmp_out_path = os.path.join(tmp_out_path, "POGOProtos")
 
-if not default_out_path:
-    print 'Can we remove "%s"?' % tmp_out_path
-    may_remove = compile_helper.query_yes_no("Please answer.", default="no")
-else:
-    may_remove = True
-
-if may_remove and os.path.exists(tmp_out_path):
+if os.path.exists(tmp_out_path):
     shutil.rmtree(tmp_out_path)
+
+# If any of the protoc builds fail, we continue on but exit with a non-0 exit
+# code so that any automation (such as CI testing) can be made aware of the
+# failure.
+exit_codes = []
 
 # Find protofiles and compile
 for root, dirnames, filenames in os.walk(proto_path):
@@ -74,8 +73,11 @@ for root, dirnames, filenames in os.walk(proto_path):
             os.path.abspath(proto_file)
         )
 
-        call(command, shell=True)
+        exit_codes.append(call(command, shell=True))
 
 compile_helper.finish_compile(out_path, lang)
 
 print("Done!")
+
+if any(c != 0 for c in exit_codes):
+  sys.exit(1)

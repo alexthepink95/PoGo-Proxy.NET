@@ -29,30 +29,37 @@ namespace POGOProtos.Settings {
             "YXhfcGxheWVyX2RlcGxveWVkX3Bva2Vtb24YAyABKAUSIQoZZGVwbG95X3N0",
             "YW1pbmFfbXVsdGlwbGllchgEIAEoARIgChhkZXBsb3lfYXR0YWNrX211bHRp",
             "cGxpZXIYBSABKAESJAocZmFyX2ludGVyYWN0aW9uX3JhbmdlX21ldGVycxgG",
-            "IAEoASKiAgoOR2xvYmFsU2V0dGluZ3MSOAoNZm9ydF9zZXR0aW5ncxgCIAEo",
+            "IAEoASLaAgoOR2xvYmFsU2V0dGluZ3MSOAoNZm9ydF9zZXR0aW5ncxgCIAEo",
             "CzIhLlBPR09Qcm90b3MuU2V0dGluZ3MuRm9ydFNldHRpbmdzEjYKDG1hcF9z",
             "ZXR0aW5ncxgDIAEoCzIgLlBPR09Qcm90b3MuU2V0dGluZ3MuTWFwU2V0dGlu",
             "Z3MSOgoObGV2ZWxfc2V0dGluZ3MYBCABKAsyIi5QT0dPUHJvdG9zLlNldHRp",
             "bmdzLkxldmVsU2V0dGluZ3MSQgoSaW52ZW50b3J5X3NldHRpbmdzGAUgASgL",
             "MiYuUE9HT1Byb3Rvcy5TZXR0aW5ncy5JbnZlbnRvcnlTZXR0aW5ncxIeChZt",
-            "aW5pbXVtX2NsaWVudF92ZXJzaW9uGAYgASgJIoABChFJbnZlbnRvcnlTZXR0",
-            "aW5ncxITCgttYXhfcG9rZW1vbhgBIAEoBRIVCg1tYXhfYmFnX2l0ZW1zGAIg",
-            "ASgFEhQKDGJhc2VfcG9rZW1vbhgDIAEoBRIWCg5iYXNlX2JhZ19pdGVtcxgE",
-            "IAEoBRIRCgliYXNlX2VnZ3MYBSABKAUiUQoNTGV2ZWxTZXR0aW5ncxIbChN0",
-            "cmFpbmVyX2NwX21vZGlmaWVyGAIgASgBEiMKG3RyYWluZXJfZGlmZmljdWx0",
-            "eV9tb2RpZmllchgDIAEoASKPAgoLTWFwU2V0dGluZ3MSHQoVcG9rZW1vbl92",
-            "aXNpYmxlX3JhbmdlGAEgASgBEh0KFXBva2VfbmF2X3JhbmdlX21ldGVycxgC",
-            "IAEoARIeChZlbmNvdW50ZXJfcmFuZ2VfbWV0ZXJzGAMgASgBEisKI2dldF9t",
-            "YXBfb2JqZWN0c19taW5fcmVmcmVzaF9zZWNvbmRzGAQgASgCEisKI2dldF9t",
-            "YXBfb2JqZWN0c19tYXhfcmVmcmVzaF9zZWNvbmRzGAUgASgCEisKI2dldF9t",
-            "YXBfb2JqZWN0c19taW5fZGlzdGFuY2VfbWV0ZXJzGAYgASgCEhsKE2dvb2ds",
-            "ZV9tYXBzX2FwaV9rZXkYByABKAliBnByb3RvMw=="));
+            "aW5pbXVtX2NsaWVudF92ZXJzaW9uGAYgASgJEjYKDGdwc19zZXR0aW5ncxgH",
+            "IAEoCzIgLlBPR09Qcm90b3MuU2V0dGluZ3MuR3BzU2V0dGluZ3MiuwEKC0dw",
+            "c1NldHRpbmdzEi8KJ2RyaXZpbmdfd2FybmluZ19zcGVlZF9tZXRlcnNfcGVy",
+            "X3NlY29uZBgBIAEoAhIoCiBkcml2aW5nX3dhcm5pbmdfY29vbGRvd25fbWlu",
+            "dXRlcxgCIAEoAhItCiVkcml2aW5nX3NwZWVkX3NhbXBsZV9pbnRlcnZhbF9z",
+            "ZWNvbmRzGAMgASgCEiIKGmRyaXZpbmdfc3BlZWRfc2FtcGxlX2NvdW50GAQg",
+            "ASgFIoABChFJbnZlbnRvcnlTZXR0aW5ncxITCgttYXhfcG9rZW1vbhgBIAEo",
+            "BRIVCg1tYXhfYmFnX2l0ZW1zGAIgASgFEhQKDGJhc2VfcG9rZW1vbhgDIAEo",
+            "BRIWCg5iYXNlX2JhZ19pdGVtcxgEIAEoBRIRCgliYXNlX2VnZ3MYBSABKAUi",
+            "UQoNTGV2ZWxTZXR0aW5ncxIbChN0cmFpbmVyX2NwX21vZGlmaWVyGAIgASgB",
+            "EiMKG3RyYWluZXJfZGlmZmljdWx0eV9tb2RpZmllchgDIAEoASKPAgoLTWFw",
+            "U2V0dGluZ3MSHQoVcG9rZW1vbl92aXNpYmxlX3JhbmdlGAEgASgBEh0KFXBv",
+            "a2VfbmF2X3JhbmdlX21ldGVycxgCIAEoARIeChZlbmNvdW50ZXJfcmFuZ2Vf",
+            "bWV0ZXJzGAMgASgBEisKI2dldF9tYXBfb2JqZWN0c19taW5fcmVmcmVzaF9z",
+            "ZWNvbmRzGAQgASgCEisKI2dldF9tYXBfb2JqZWN0c19tYXhfcmVmcmVzaF9z",
+            "ZWNvbmRzGAUgASgCEisKI2dldF9tYXBfb2JqZWN0c19taW5fZGlzdGFuY2Vf",
+            "bWV0ZXJzGAYgASgCEhsKE2dvb2dsZV9tYXBzX2FwaV9rZXkYByABKAliBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.DownloadSettingsAction), global::POGOProtos.Settings.DownloadSettingsAction.Parser, new[]{ "Hash" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.FortSettings), global::POGOProtos.Settings.FortSettings.Parser, new[]{ "InteractionRangeMeters", "MaxTotalDeployedPokemon", "MaxPlayerDeployedPokemon", "DeployStaminaMultiplier", "DeployAttackMultiplier", "FarInteractionRangeMeters" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.GlobalSettings), global::POGOProtos.Settings.GlobalSettings.Parser, new[]{ "FortSettings", "MapSettings", "LevelSettings", "InventorySettings", "MinimumClientVersion" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.GlobalSettings), global::POGOProtos.Settings.GlobalSettings.Parser, new[]{ "FortSettings", "MapSettings", "LevelSettings", "InventorySettings", "MinimumClientVersion", "GpsSettings" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.GpsSettings), global::POGOProtos.Settings.GpsSettings.Parser, new[]{ "DrivingWarningSpeedMetersPerSecond", "DrivingWarningCooldownMinutes", "DrivingSpeedSampleIntervalSeconds", "DrivingSpeedSampleCount" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.InventorySettings), global::POGOProtos.Settings.InventorySettings.Parser, new[]{ "MaxPokemon", "MaxBagItems", "BasePokemon", "BaseBagItems", "BaseEggs" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.LevelSettings), global::POGOProtos.Settings.LevelSettings.Parser, new[]{ "TrainerCpModifier", "TrainerDifficultyModifier" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Settings.MapSettings), global::POGOProtos.Settings.MapSettings.Parser, new[]{ "PokemonVisibleRange", "PokeNavRangeMeters", "EncounterRangeMeters", "GetMapObjectsMinRefreshSeconds", "GetMapObjectsMaxRefreshSeconds", "GetMapObjectsMinDistanceMeters", "GoogleMapsApiKey" }, null, null, null)
@@ -465,6 +472,7 @@ namespace POGOProtos.Settings {
       LevelSettings = other.levelSettings_ != null ? other.LevelSettings.Clone() : null;
       InventorySettings = other.inventorySettings_ != null ? other.InventorySettings.Clone() : null;
       minimumClientVersion_ = other.minimumClientVersion_;
+      GpsSettings = other.gpsSettings_ != null ? other.GpsSettings.Clone() : null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -527,6 +535,17 @@ namespace POGOProtos.Settings {
       }
     }
 
+    /// <summary>Field number for the "gps_settings" field.</summary>
+    public const int GpsSettingsFieldNumber = 7;
+    private global::POGOProtos.Settings.GpsSettings gpsSettings_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::POGOProtos.Settings.GpsSettings GpsSettings {
+      get { return gpsSettings_; }
+      set {
+        gpsSettings_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GlobalSettings);
@@ -545,6 +564,7 @@ namespace POGOProtos.Settings {
       if (!object.Equals(LevelSettings, other.LevelSettings)) return false;
       if (!object.Equals(InventorySettings, other.InventorySettings)) return false;
       if (MinimumClientVersion != other.MinimumClientVersion) return false;
+      if (!object.Equals(GpsSettings, other.GpsSettings)) return false;
       return true;
     }
 
@@ -556,6 +576,7 @@ namespace POGOProtos.Settings {
       if (levelSettings_ != null) hash ^= LevelSettings.GetHashCode();
       if (inventorySettings_ != null) hash ^= InventorySettings.GetHashCode();
       if (MinimumClientVersion.Length != 0) hash ^= MinimumClientVersion.GetHashCode();
+      if (gpsSettings_ != null) hash ^= GpsSettings.GetHashCode();
       return hash;
     }
 
@@ -586,6 +607,10 @@ namespace POGOProtos.Settings {
         output.WriteRawTag(50);
         output.WriteString(MinimumClientVersion);
       }
+      if (gpsSettings_ != null) {
+        output.WriteRawTag(58);
+        output.WriteMessage(GpsSettings);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -605,6 +630,9 @@ namespace POGOProtos.Settings {
       }
       if (MinimumClientVersion.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(MinimumClientVersion);
+      }
+      if (gpsSettings_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GpsSettings);
       }
       return size;
     }
@@ -640,6 +668,12 @@ namespace POGOProtos.Settings {
       }
       if (other.MinimumClientVersion.Length != 0) {
         MinimumClientVersion = other.MinimumClientVersion;
+      }
+      if (other.gpsSettings_ != null) {
+        if (gpsSettings_ == null) {
+          gpsSettings_ = new global::POGOProtos.Settings.GpsSettings();
+        }
+        GpsSettings.MergeFrom(other.GpsSettings);
       }
     }
 
@@ -683,6 +717,214 @@ namespace POGOProtos.Settings {
             MinimumClientVersion = input.ReadString();
             break;
           }
+          case 58: {
+            if (gpsSettings_ == null) {
+              gpsSettings_ = new global::POGOProtos.Settings.GpsSettings();
+            }
+            input.ReadMessage(gpsSettings_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GpsSettings : pb::IMessage<GpsSettings> {
+    private static readonly pb::MessageParser<GpsSettings> _parser = new pb::MessageParser<GpsSettings>(() => new GpsSettings());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GpsSettings> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::POGOProtos.Settings.POGOProtosSettingsReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GpsSettings() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GpsSettings(GpsSettings other) : this() {
+      drivingWarningSpeedMetersPerSecond_ = other.drivingWarningSpeedMetersPerSecond_;
+      drivingWarningCooldownMinutes_ = other.drivingWarningCooldownMinutes_;
+      drivingSpeedSampleIntervalSeconds_ = other.drivingSpeedSampleIntervalSeconds_;
+      drivingSpeedSampleCount_ = other.drivingSpeedSampleCount_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GpsSettings Clone() {
+      return new GpsSettings(this);
+    }
+
+    /// <summary>Field number for the "driving_warning_speed_meters_per_second" field.</summary>
+    public const int DrivingWarningSpeedMetersPerSecondFieldNumber = 1;
+    private float drivingWarningSpeedMetersPerSecond_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float DrivingWarningSpeedMetersPerSecond {
+      get { return drivingWarningSpeedMetersPerSecond_; }
+      set {
+        drivingWarningSpeedMetersPerSecond_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "driving_warning_cooldown_minutes" field.</summary>
+    public const int DrivingWarningCooldownMinutesFieldNumber = 2;
+    private float drivingWarningCooldownMinutes_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float DrivingWarningCooldownMinutes {
+      get { return drivingWarningCooldownMinutes_; }
+      set {
+        drivingWarningCooldownMinutes_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "driving_speed_sample_interval_seconds" field.</summary>
+    public const int DrivingSpeedSampleIntervalSecondsFieldNumber = 3;
+    private float drivingSpeedSampleIntervalSeconds_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public float DrivingSpeedSampleIntervalSeconds {
+      get { return drivingSpeedSampleIntervalSeconds_; }
+      set {
+        drivingSpeedSampleIntervalSeconds_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "driving_speed_sample_count" field.</summary>
+    public const int DrivingSpeedSampleCountFieldNumber = 4;
+    private int drivingSpeedSampleCount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int DrivingSpeedSampleCount {
+      get { return drivingSpeedSampleCount_; }
+      set {
+        drivingSpeedSampleCount_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GpsSettings);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GpsSettings other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DrivingWarningSpeedMetersPerSecond != other.DrivingWarningSpeedMetersPerSecond) return false;
+      if (DrivingWarningCooldownMinutes != other.DrivingWarningCooldownMinutes) return false;
+      if (DrivingSpeedSampleIntervalSeconds != other.DrivingSpeedSampleIntervalSeconds) return false;
+      if (DrivingSpeedSampleCount != other.DrivingSpeedSampleCount) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (DrivingWarningSpeedMetersPerSecond != 0F) hash ^= DrivingWarningSpeedMetersPerSecond.GetHashCode();
+      if (DrivingWarningCooldownMinutes != 0F) hash ^= DrivingWarningCooldownMinutes.GetHashCode();
+      if (DrivingSpeedSampleIntervalSeconds != 0F) hash ^= DrivingSpeedSampleIntervalSeconds.GetHashCode();
+      if (DrivingSpeedSampleCount != 0) hash ^= DrivingSpeedSampleCount.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (DrivingWarningSpeedMetersPerSecond != 0F) {
+        output.WriteRawTag(13);
+        output.WriteFloat(DrivingWarningSpeedMetersPerSecond);
+      }
+      if (DrivingWarningCooldownMinutes != 0F) {
+        output.WriteRawTag(21);
+        output.WriteFloat(DrivingWarningCooldownMinutes);
+      }
+      if (DrivingSpeedSampleIntervalSeconds != 0F) {
+        output.WriteRawTag(29);
+        output.WriteFloat(DrivingSpeedSampleIntervalSeconds);
+      }
+      if (DrivingSpeedSampleCount != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(DrivingSpeedSampleCount);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (DrivingWarningSpeedMetersPerSecond != 0F) {
+        size += 1 + 4;
+      }
+      if (DrivingWarningCooldownMinutes != 0F) {
+        size += 1 + 4;
+      }
+      if (DrivingSpeedSampleIntervalSeconds != 0F) {
+        size += 1 + 4;
+      }
+      if (DrivingSpeedSampleCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(DrivingSpeedSampleCount);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GpsSettings other) {
+      if (other == null) {
+        return;
+      }
+      if (other.DrivingWarningSpeedMetersPerSecond != 0F) {
+        DrivingWarningSpeedMetersPerSecond = other.DrivingWarningSpeedMetersPerSecond;
+      }
+      if (other.DrivingWarningCooldownMinutes != 0F) {
+        DrivingWarningCooldownMinutes = other.DrivingWarningCooldownMinutes;
+      }
+      if (other.DrivingSpeedSampleIntervalSeconds != 0F) {
+        DrivingSpeedSampleIntervalSeconds = other.DrivingSpeedSampleIntervalSeconds;
+      }
+      if (other.DrivingSpeedSampleCount != 0) {
+        DrivingSpeedSampleCount = other.DrivingSpeedSampleCount;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 13: {
+            DrivingWarningSpeedMetersPerSecond = input.ReadFloat();
+            break;
+          }
+          case 21: {
+            DrivingWarningCooldownMinutes = input.ReadFloat();
+            break;
+          }
+          case 29: {
+            DrivingSpeedSampleIntervalSeconds = input.ReadFloat();
+            break;
+          }
+          case 32: {
+            DrivingSpeedSampleCount = input.ReadInt32();
+            break;
+          }
         }
       }
     }
@@ -696,7 +938,7 @@ namespace POGOProtos.Settings {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Settings.POGOProtosSettingsReflection.Descriptor.MessageTypes[3]; }
+      get { return global::POGOProtos.Settings.POGOProtosSettingsReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -925,7 +1167,7 @@ namespace POGOProtos.Settings {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Settings.POGOProtosSettingsReflection.Descriptor.MessageTypes[4]; }
+      get { return global::POGOProtos.Settings.POGOProtosSettingsReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1070,7 +1312,7 @@ namespace POGOProtos.Settings {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Settings.POGOProtosSettingsReflection.Descriptor.MessageTypes[5]; }
+      get { return global::POGOProtos.Settings.POGOProtosSettingsReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

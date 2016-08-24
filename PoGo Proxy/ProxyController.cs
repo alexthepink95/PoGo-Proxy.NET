@@ -43,7 +43,7 @@ namespace PoGo_Proxy
             _proxyServer.ClientCertificateSelectionCallback += OnCertificateSelection;
 
             // Set ip and port to monitor
-            var explicitEndPoint = new ExplicitProxyEndPoint(IPAddress.Parse(Ip), Port, true);
+            var explicitEndPoint = new ExplicitProxyEndPoint(IPAddress.Parse(ip), Port, true);
             _proxyServer.AddEndPoint(explicitEndPoint);
 
             // Start proxy server

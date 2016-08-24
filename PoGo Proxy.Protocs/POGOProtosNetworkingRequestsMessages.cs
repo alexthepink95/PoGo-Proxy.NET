@@ -41,91 +41,98 @@ namespace POGOProtos.Networking.Requests.Messages {
             "aXplGAMgASgBEhYKDnNwYXduX3BvaW50X2lkGAQgASgJEhMKC2hpdF9wb2tl",
             "bW9uGAUgASgIEhUKDXNwaW5fbW9kaWZpZXIYBiABKAESHwoXbm9ybWFsaXpl",
             "ZF9oaXRfcG9zaXRpb24YByABKAEiGwoZQ2hlY2tBd2FyZGVkQmFkZ2VzTWVz",
-            "c2FnZSIxCh1DaGVja0NvZGVuYW1lQXZhaWxhYmxlTWVzc2FnZRIQCghjb2Rl",
-            "bmFtZRgBIAEoCSIoChRDbGFpbUNvZGVuYW1lTWVzc2FnZRIQCghjb2RlbmFt",
-            "ZRgBIAEoCSIaChhDb2xsZWN0RGFpbHlCb251c01lc3NhZ2UiIgogQ29sbGVj",
-            "dERhaWx5RGVmZW5kZXJCb251c01lc3NhZ2UicAoURGlza0VuY291bnRlck1l",
-            "c3NhZ2USFAoMZW5jb3VudGVyX2lkGAEgASgEEg8KB2ZvcnRfaWQYAiABKAkS",
-            "FwoPcGxheWVyX2xhdGl0dWRlGAMgASgBEhgKEHBsYXllcl9sb25naXR1ZGUY",
-            "BCABKAEiHgocRG93bmxvYWRJdGVtVGVtcGxhdGVzTWVzc2FnZSKqAQoiRG93",
-            "bmxvYWRSZW1vdGVDb25maWdWZXJzaW9uTWVzc2FnZRIsCghwbGF0Zm9ybRgB",
-            "IAEoDjIaLlBPR09Qcm90b3MuRW51bXMuUGxhdGZvcm0SGwoTZGV2aWNlX21h",
-            "bnVmYWN0dXJlchgCIAEoCRIUCgxkZXZpY2VfbW9kZWwYAyABKAkSDgoGbG9j",
-            "YWxlGAQgASgJEhMKC2FwcF92ZXJzaW9uGAUgASgNIicKF0Rvd25sb2FkU2V0",
-            "dGluZ3NNZXNzYWdlEgwKBGhhc2gYASABKAkiDQoLRWNob01lc3NhZ2UicwoQ",
-            "RW5jb3VudGVyTWVzc2FnZRIUCgxlbmNvdW50ZXJfaWQYASABKAYSFgoOc3Bh",
-            "d25fcG9pbnRfaWQYAiABKAkSFwoPcGxheWVyX2xhdGl0dWRlGAMgASgBEhgK",
-            "EHBsYXllcl9sb25naXR1ZGUYBCABKAEiUwogRW5jb3VudGVyVHV0b3JpYWxD",
-            "b21wbGV0ZU1lc3NhZ2USLwoKcG9rZW1vbl9pZBgBIAEoDjIbLlBPR09Qcm90",
-            "b3MuRW51bXMuUG9rZW1vbklkIkQKEUVxdWlwQmFkZ2VNZXNzYWdlEi8KCmJh",
-            "ZGdlX3R5cGUYASABKA4yGy5QT0dPUHJvdG9zLkVudW1zLkJhZGdlVHlwZSIq",
-            "ChRFdm9sdmVQb2tlbW9uTWVzc2FnZRISCgpwb2tlbW9uX2lkGAEgASgGInIK",
-            "GEZvcnREZXBsb3lQb2tlbW9uTWVzc2FnZRIPCgdmb3J0X2lkGAEgASgJEhIK",
-            "CnBva2Vtb25faWQYAiABKAQSFwoPcGxheWVyX2xhdGl0dWRlGAMgASgBEhgK",
-            "EHBsYXllcl9sb25naXR1ZGUYBCABKAEiSgoSRm9ydERldGFpbHNNZXNzYWdl",
-            "Eg8KB2ZvcnRfaWQYASABKAkSEAoIbGF0aXR1ZGUYAiABKAESEQoJbG9uZ2l0",
-            "dWRlGAMgASgBInIKGEZvcnRSZWNhbGxQb2tlbW9uTWVzc2FnZRIPCgdmb3J0",
-            "X2lkGAEgASgJEhIKCnBva2Vtb25faWQYAiABKAQSFwoPcGxheWVyX2xhdGl0",
-            "dWRlGAMgASgBEhgKEHBsYXllcl9sb25naXR1ZGUYBCABKAEihgEKEUZvcnRT",
-            "ZWFyY2hNZXNzYWdlEg8KB2ZvcnRfaWQYASABKAkSFwoPcGxheWVyX2xhdGl0",
-            "dWRlGAIgASgBEhgKEHBsYXllcl9sb25naXR1ZGUYAyABKAESFQoNZm9ydF9s",
-            "YXRpdHVkZRgEIAEoARIWCg5mb3J0X2xvbmdpdHVkZRgFIAEoASKdAQoVR2V0",
-            "QXNzZXREaWdlc3RNZXNzYWdlEiwKCHBsYXRmb3JtGAEgASgOMhouUE9HT1By",
-            "b3Rvcy5FbnVtcy5QbGF0Zm9ybRIbChNkZXZpY2VfbWFudWZhY3R1cmVyGAIg",
-            "ASgJEhQKDGRldmljZV9tb2RlbBgDIAEoCRIOCgZsb2NhbGUYBCABKAkSEwoL",
-            "YXBwX3ZlcnNpb24YBSABKA0iKgoWR2V0RG93bmxvYWRVcmxzTWVzc2FnZRIQ",
-            "Cghhc3NldF9pZBgBIAMoCSKGAQoUR2V0R3ltRGV0YWlsc01lc3NhZ2USDgoG",
-            "Z3ltX2lkGAEgASgJEhcKD3BsYXllcl9sYXRpdHVkZRgCIAEoARIYChBwbGF5",
-            "ZXJfbG9uZ2l0dWRlGAMgASgBEhQKDGd5bV9sYXRpdHVkZRgEIAEoARIVCg1n",
-            "eW1fbG9uZ2l0dWRlGAUgASgBIhcKFUdldEhhdGNoZWRFZ2dzTWVzc2FnZSJN",
-            "ChhHZXRJbmNlbnNlUG9rZW1vbk1lc3NhZ2USFwoPcGxheWVyX2xhdGl0dWRl",
-            "GAEgASgBEhgKEHBsYXllcl9sb25naXR1ZGUYAiABKAEiSAoTR2V0SW52ZW50",
-            "b3J5TWVzc2FnZRIZChFsYXN0X3RpbWVzdGFtcF9tcxgBIAEoAxIWCg5pdGVt",
-            "X2JlZW5fc2VlbhgCIAEoBSJwChRHZXRNYXBPYmplY3RzTWVzc2FnZRITCgdj",
-            "ZWxsX2lkGAEgAygEQgIQARIeChJzaW5jZV90aW1lc3RhbXBfbXMYAiADKANC",
-            "AhABEhAKCGxhdGl0dWRlGAMgASgBEhEKCWxvbmdpdHVkZRgEIAEoASISChBH",
-            "ZXRQbGF5ZXJNZXNzYWdlIi4KF0dldFBsYXllclByb2ZpbGVNZXNzYWdlEhMK",
-            "C3BsYXllcl9uYW1lGAEgASgJIh4KHEdldFN1Z2dlc3RlZENvZGVuYW1lc01l",
-            "c3NhZ2UiSwoXSW5jZW5zZUVuY291bnRlck1lc3NhZ2USFAoMZW5jb3VudGVy",
-            "X2lkGAEgASgDEhoKEmVuY291bnRlcl9sb2NhdGlvbhgCIAEoCSImChVMZXZl",
-            "bFVwUmV3YXJkc01lc3NhZ2USDQoFbGV2ZWwYASABKAUimwEKG01hcmtUdXRv",
-            "cmlhbENvbXBsZXRlTWVzc2FnZRI8ChN0dXRvcmlhbHNfY29tcGxldGVkGAEg",
-            "AygOMh8uUE9HT1Byb3Rvcy5FbnVtcy5UdXRvcmlhbFN0YXRlEh0KFXNlbmRf",
-            "bWFya2V0aW5nX2VtYWlscxgCIAEoCBIfChdzZW5kX3B1c2hfbm90aWZpY2F0",
-            "aW9ucxgDIAEoCCI+ChZOaWNrbmFtZVBva2Vtb25NZXNzYWdlEhIKCnBva2Vt",
-            "b25faWQYASABKAYSEAoIbmlja25hbWUYAiABKAkiOgoTUGxheWVyVXBkYXRl",
-            "TWVzc2FnZRIQCghsYXRpdHVkZRgBIAEoARIRCglsb25naXR1ZGUYAiABKAEi",
-            "YAobUmVjeWNsZUludmVudG9yeUl0ZW1NZXNzYWdlEjIKB2l0ZW1faWQYASAB",
-            "KA4yIS5QT0dPUHJvdG9zLkludmVudG9yeS5JdGVtLkl0ZW1JZBINCgVjb3Vu",
-            "dBgCIAEoBSIrChVSZWxlYXNlUG9rZW1vbk1lc3NhZ2USEgoKcG9rZW1vbl9p",
-            "ZBgBIAEoBiJPChBTZXRBdmF0YXJNZXNzYWdlEjsKDXBsYXllcl9hdmF0YXIY",
-            "AiABKAsyJC5QT0dPUHJvdG9zLkRhdGEuUGxheWVyLlBsYXllckF2YXRhciJe",
-            "ChlTZXRDb250YWN0U2V0dGluZ3NNZXNzYWdlEkEKEGNvbnRhY3Rfc2V0dGlu",
-            "Z3MYASABKAsyJy5QT0dPUHJvdG9zLkRhdGEuUGxheWVyLkNvbnRhY3RTZXR0",
-            "aW5ncyJEChlTZXRGYXZvcml0ZVBva2Vtb25NZXNzYWdlEhIKCnBva2Vtb25f",
-            "aWQYASABKAQSEwoLaXNfZmF2b3JpdGUYAiABKAgiQQoUU2V0UGxheWVyVGVh",
-            "bU1lc3NhZ2USKQoEdGVhbRgBIAEoDjIbLlBPR09Qcm90b3MuRW51bXMuVGVh",
-            "bUNvbG9yIhcKFVNmaWRhQWN0aW9uTG9nTWVzc2FnZSKXAQoVU3RhcnRHeW1C",
-            "YXR0bGVNZXNzYWdlEg4KBmd5bV9pZBgBIAEoCRIdChVhdHRhY2tpbmdfcG9r",
-            "ZW1vbl9pZHMYAiADKAYSHAoUZGVmZW5kaW5nX3Bva2Vtb25faWQYAyABKAQS",
-            "FwoPcGxheWVyX2xhdGl0dWRlGAQgASgBEhgKEHBsYXllcl9sb25naXR1ZGUY",
-            "BSABKAEiKwoVVXBncmFkZVBva2Vtb25NZXNzYWdlEhIKCnBva2Vtb25faWQY",
-            "ASABKAQiTAoRVXNlSW5jZW5zZU1lc3NhZ2USNwoMaW5jZW5zZV90eXBlGAEg",
-            "ASgOMiEuUE9HT1Byb3Rvcy5JbnZlbnRvcnkuSXRlbS5JdGVtSWQiewoVVXNl",
-            "SXRlbUNhcHR1cmVNZXNzYWdlEjIKB2l0ZW1faWQYASABKA4yIS5QT0dPUHJv",
-            "dG9zLkludmVudG9yeS5JdGVtLkl0ZW1JZBIUCgxlbmNvdW50ZXJfaWQYAiAB",
-            "KAYSGAoQc3Bhd25fcG9pbnRfZ3VpZBgDIAEoCSJBChpVc2VJdGVtRWdnSW5j",
-            "dWJhdG9yTWVzc2FnZRIPCgdpdGVtX2lkGAEgASgJEhIKCnBva2Vtb25faWQY",
-            "AiABKAQiigEKEVVzZUl0ZW1HeW1NZXNzYWdlEjIKB2l0ZW1faWQYASABKA4y",
-            "IS5QT0dPUHJvdG9zLkludmVudG9yeS5JdGVtLkl0ZW1JZBIOCgZneW1faWQY",
-            "AiABKAkSFwoPcGxheWVyX2xhdGl0dWRlGAMgASgBEhgKEHBsYXllcl9sb25n",
-            "aXR1ZGUYBCABKAEiXgoUVXNlSXRlbVBvdGlvbk1lc3NhZ2USMgoHaXRlbV9p",
-            "ZBgBIAEoDjIhLlBPR09Qcm90b3MuSW52ZW50b3J5Lkl0ZW0uSXRlbUlkEhIK",
-            "CnBva2Vtb25faWQYAiABKAQiXgoUVXNlSXRlbVJldml2ZU1lc3NhZ2USMgoH",
-            "aXRlbV9pZBgBIAEoDjIhLlBPR09Qcm90b3MuSW52ZW50b3J5Lkl0ZW0uSXRl",
-            "bUlkEhIKCnBva2Vtb25faWQYAiABKAQiSwoVVXNlSXRlbVhwQm9vc3RNZXNz",
-            "YWdlEjIKB2l0ZW1faWQYASABKA4yIS5QT0dPUHJvdG9zLkludmVudG9yeS5J",
-            "dGVtLkl0ZW1JZFAAUAFQAlADYgZwcm90bzM="));
+            "c2FnZSIuChVDaGVja0NoYWxsZW5nZU1lc3NhZ2USFQoNZGVidWdfcmVxdWVz",
+            "dBgBIAEoCCIxCh1DaGVja0NvZGVuYW1lQXZhaWxhYmxlTWVzc2FnZRIQCghj",
+            "b2RlbmFtZRgBIAEoCSIoChRDbGFpbUNvZGVuYW1lTWVzc2FnZRIQCghjb2Rl",
+            "bmFtZRgBIAEoCSIaChhDb2xsZWN0RGFpbHlCb251c01lc3NhZ2UiIgogQ29s",
+            "bGVjdERhaWx5RGVmZW5kZXJCb251c01lc3NhZ2UicAoURGlza0VuY291bnRl",
+            "ck1lc3NhZ2USFAoMZW5jb3VudGVyX2lkGAEgASgEEg8KB2ZvcnRfaWQYAiAB",
+            "KAkSFwoPcGxheWVyX2xhdGl0dWRlGAMgASgBEhgKEHBsYXllcl9sb25naXR1",
+            "ZGUYBCABKAEiHgocRG93bmxvYWRJdGVtVGVtcGxhdGVzTWVzc2FnZSKqAQoi",
+            "RG93bmxvYWRSZW1vdGVDb25maWdWZXJzaW9uTWVzc2FnZRIsCghwbGF0Zm9y",
+            "bRgBIAEoDjIaLlBPR09Qcm90b3MuRW51bXMuUGxhdGZvcm0SGwoTZGV2aWNl",
+            "X21hbnVmYWN0dXJlchgCIAEoCRIUCgxkZXZpY2VfbW9kZWwYAyABKAkSDgoG",
+            "bG9jYWxlGAQgASgJEhMKC2FwcF92ZXJzaW9uGAUgASgNIicKF0Rvd25sb2Fk",
+            "U2V0dGluZ3NNZXNzYWdlEgwKBGhhc2gYASABKAkiDQoLRWNob01lc3NhZ2Ui",
+            "cwoQRW5jb3VudGVyTWVzc2FnZRIUCgxlbmNvdW50ZXJfaWQYASABKAYSFgoO",
+            "c3Bhd25fcG9pbnRfaWQYAiABKAkSFwoPcGxheWVyX2xhdGl0dWRlGAMgASgB",
+            "EhgKEHBsYXllcl9sb25naXR1ZGUYBCABKAEiUwogRW5jb3VudGVyVHV0b3Jp",
+            "YWxDb21wbGV0ZU1lc3NhZ2USLwoKcG9rZW1vbl9pZBgBIAEoDjIbLlBPR09Q",
+            "cm90b3MuRW51bXMuUG9rZW1vbklkIkQKEUVxdWlwQmFkZ2VNZXNzYWdlEi8K",
+            "CmJhZGdlX3R5cGUYASABKA4yGy5QT0dPUHJvdG9zLkVudW1zLkJhZGdlVHlw",
+            "ZSIqChRFdm9sdmVQb2tlbW9uTWVzc2FnZRISCgpwb2tlbW9uX2lkGAEgASgG",
+            "InIKGEZvcnREZXBsb3lQb2tlbW9uTWVzc2FnZRIPCgdmb3J0X2lkGAEgASgJ",
+            "EhIKCnBva2Vtb25faWQYAiABKAYSFwoPcGxheWVyX2xhdGl0dWRlGAMgASgB",
+            "EhgKEHBsYXllcl9sb25naXR1ZGUYBCABKAEiSgoSRm9ydERldGFpbHNNZXNz",
+            "YWdlEg8KB2ZvcnRfaWQYASABKAkSEAoIbGF0aXR1ZGUYAiABKAESEQoJbG9u",
+            "Z2l0dWRlGAMgASgBInIKGEZvcnRSZWNhbGxQb2tlbW9uTWVzc2FnZRIPCgdm",
+            "b3J0X2lkGAEgASgJEhIKCnBva2Vtb25faWQYAiABKAYSFwoPcGxheWVyX2xh",
+            "dGl0dWRlGAMgASgBEhgKEHBsYXllcl9sb25naXR1ZGUYBCABKAEihgEKEUZv",
+            "cnRTZWFyY2hNZXNzYWdlEg8KB2ZvcnRfaWQYASABKAkSFwoPcGxheWVyX2xh",
+            "dGl0dWRlGAIgASgBEhgKEHBsYXllcl9sb25naXR1ZGUYAyABKAESFQoNZm9y",
+            "dF9sYXRpdHVkZRgEIAEoARIWCg5mb3J0X2xvbmdpdHVkZRgFIAEoASKdAQoV",
+            "R2V0QXNzZXREaWdlc3RNZXNzYWdlEiwKCHBsYXRmb3JtGAEgASgOMhouUE9H",
+            "T1Byb3Rvcy5FbnVtcy5QbGF0Zm9ybRIbChNkZXZpY2VfbWFudWZhY3R1cmVy",
+            "GAIgASgJEhQKDGRldmljZV9tb2RlbBgDIAEoCRIOCgZsb2NhbGUYBCABKAkS",
+            "EwoLYXBwX3ZlcnNpb24YBSABKA0iFwoVR2V0QnVkZHlXYWxrZWRNZXNzYWdl",
+            "IioKFkdldERvd25sb2FkVXJsc01lc3NhZ2USEAoIYXNzZXRfaWQYASADKAki",
+            "ngEKFEdldEd5bURldGFpbHNNZXNzYWdlEg4KBmd5bV9pZBgBIAEoCRIXCg9w",
+            "bGF5ZXJfbGF0aXR1ZGUYAiABKAESGAoQcGxheWVyX2xvbmdpdHVkZRgDIAEo",
+            "ARIUCgxneW1fbGF0aXR1ZGUYBCABKAESFQoNZ3ltX2xvbmdpdHVkZRgFIAEo",
+            "ARIWCg5jbGllbnRfdmVyc2lvbhgGIAEoCSIXChVHZXRIYXRjaGVkRWdnc01l",
+            "c3NhZ2UiTQoYR2V0SW5jZW5zZVBva2Vtb25NZXNzYWdlEhcKD3BsYXllcl9s",
+            "YXRpdHVkZRgBIAEoARIYChBwbGF5ZXJfbG9uZ2l0dWRlGAIgASgBIkgKE0dl",
+            "dEludmVudG9yeU1lc3NhZ2USGQoRbGFzdF90aW1lc3RhbXBfbXMYASABKAMS",
+            "FgoOaXRlbV9iZWVuX3NlZW4YAiABKAUicAoUR2V0TWFwT2JqZWN0c01lc3Nh",
+            "Z2USEwoHY2VsbF9pZBgBIAMoBEICEAESHgoSc2luY2VfdGltZXN0YW1wX21z",
+            "GAIgAygDQgIQARIQCghsYXRpdHVkZRgDIAEoARIRCglsb25naXR1ZGUYBCAB",
+            "KAEipAEKEEdldFBsYXllck1lc3NhZ2USXQoNcGxheWVyX2xvY2FsZRgBIAEo",
+            "CzJGLlBPR09Qcm90b3MuTmV0d29ya2luZy5SZXF1ZXN0cy5NZXNzYWdlcy5H",
+            "ZXRQbGF5ZXJNZXNzYWdlLlBsYXllckxvY2FsZRoxCgxQbGF5ZXJMb2NhbGUS",
+            "DwoHY291bnRyeRgBIAEoCRIQCghsYW5ndWFnZRgCIAEoCSIuChdHZXRQbGF5",
+            "ZXJQcm9maWxlTWVzc2FnZRITCgtwbGF5ZXJfbmFtZRgBIAEoCSIeChxHZXRT",
+            "dWdnZXN0ZWRDb2RlbmFtZXNNZXNzYWdlIksKF0luY2Vuc2VFbmNvdW50ZXJN",
+            "ZXNzYWdlEhQKDGVuY291bnRlcl9pZBgBIAEoBBIaChJlbmNvdW50ZXJfbG9j",
+            "YXRpb24YAiABKAkiJgoVTGV2ZWxVcFJld2FyZHNNZXNzYWdlEg0KBWxldmVs",
+            "GAEgASgFIpsBChtNYXJrVHV0b3JpYWxDb21wbGV0ZU1lc3NhZ2USPAoTdHV0",
+            "b3JpYWxzX2NvbXBsZXRlZBgBIAMoDjIfLlBPR09Qcm90b3MuRW51bXMuVHV0",
+            "b3JpYWxTdGF0ZRIdChVzZW5kX21hcmtldGluZ19lbWFpbHMYAiABKAgSHwoX",
+            "c2VuZF9wdXNoX25vdGlmaWNhdGlvbnMYAyABKAgiPgoWTmlja25hbWVQb2tl",
+            "bW9uTWVzc2FnZRISCgpwb2tlbW9uX2lkGAEgASgGEhAKCG5pY2tuYW1lGAIg",
+            "ASgJIjoKE1BsYXllclVwZGF0ZU1lc3NhZ2USEAoIbGF0aXR1ZGUYASABKAES",
+            "EQoJbG9uZ2l0dWRlGAIgASgBImAKG1JlY3ljbGVJbnZlbnRvcnlJdGVtTWVz",
+            "c2FnZRIyCgdpdGVtX2lkGAEgASgOMiEuUE9HT1Byb3Rvcy5JbnZlbnRvcnku",
+            "SXRlbS5JdGVtSWQSDQoFY291bnQYAiABKAUiKwoVUmVsZWFzZVBva2Vtb25N",
+            "ZXNzYWdlEhIKCnBva2Vtb25faWQYASABKAYiTwoQU2V0QXZhdGFyTWVzc2Fn",
+            "ZRI7Cg1wbGF5ZXJfYXZhdGFyGAIgASgLMiQuUE9HT1Byb3Rvcy5EYXRhLlBs",
+            "YXllci5QbGF5ZXJBdmF0YXIiLAoWU2V0QnVkZHlQb2tlbW9uTWVzc2FnZRIS",
+            "Cgpwb2tlbW9uX2lkGAEgASgGIl4KGVNldENvbnRhY3RTZXR0aW5nc01lc3Nh",
+            "Z2USQQoQY29udGFjdF9zZXR0aW5ncxgBIAEoCzInLlBPR09Qcm90b3MuRGF0",
+            "YS5QbGF5ZXIuQ29udGFjdFNldHRpbmdzIkQKGVNldEZhdm9yaXRlUG9rZW1v",
+            "bk1lc3NhZ2USEgoKcG9rZW1vbl9pZBgBIAEoAxITCgtpc19mYXZvcml0ZRgC",
+            "IAEoCCJBChRTZXRQbGF5ZXJUZWFtTWVzc2FnZRIpCgR0ZWFtGAEgASgOMhsu",
+            "UE9HT1Byb3Rvcy5FbnVtcy5UZWFtQ29sb3IiFwoVU2ZpZGFBY3Rpb25Mb2dN",
+            "ZXNzYWdlIpcBChVTdGFydEd5bUJhdHRsZU1lc3NhZ2USDgoGZ3ltX2lkGAEg",
+            "ASgJEh0KFWF0dGFja2luZ19wb2tlbW9uX2lkcxgCIAMoBhIcChRkZWZlbmRp",
+            "bmdfcG9rZW1vbl9pZBgDIAEoBhIXCg9wbGF5ZXJfbGF0aXR1ZGUYBCABKAES",
+            "GAoQcGxheWVyX2xvbmdpdHVkZRgFIAEoASIrChVVcGdyYWRlUG9rZW1vbk1l",
+            "c3NhZ2USEgoKcG9rZW1vbl9pZBgBIAEoBiJMChFVc2VJbmNlbnNlTWVzc2Fn",
+            "ZRI3CgxpbmNlbnNlX3R5cGUYASABKA4yIS5QT0dPUHJvdG9zLkludmVudG9y",
+            "eS5JdGVtLkl0ZW1JZCJ5ChVVc2VJdGVtQ2FwdHVyZU1lc3NhZ2USMgoHaXRl",
+            "bV9pZBgBIAEoDjIhLlBPR09Qcm90b3MuSW52ZW50b3J5Lkl0ZW0uSXRlbUlk",
+            "EhQKDGVuY291bnRlcl9pZBgCIAEoBhIWCg5zcGF3bl9wb2ludF9pZBgDIAEo",
+            "CSJBChpVc2VJdGVtRWdnSW5jdWJhdG9yTWVzc2FnZRIPCgdpdGVtX2lkGAEg",
+            "ASgJEhIKCnBva2Vtb25faWQYAiABKAQiigEKEVVzZUl0ZW1HeW1NZXNzYWdl",
+            "EjIKB2l0ZW1faWQYASABKA4yIS5QT0dPUHJvdG9zLkludmVudG9yeS5JdGVt",
+            "Lkl0ZW1JZBIOCgZneW1faWQYAiABKAkSFwoPcGxheWVyX2xhdGl0dWRlGAMg",
+            "ASgBEhgKEHBsYXllcl9sb25naXR1ZGUYBCABKAEiXgoUVXNlSXRlbVBvdGlv",
+            "bk1lc3NhZ2USMgoHaXRlbV9pZBgBIAEoDjIhLlBPR09Qcm90b3MuSW52ZW50",
+            "b3J5Lkl0ZW0uSXRlbUlkEhIKCnBva2Vtb25faWQYAiABKAYiXgoUVXNlSXRl",
+            "bVJldml2ZU1lc3NhZ2USMgoHaXRlbV9pZBgBIAEoDjIhLlBPR09Qcm90b3Mu",
+            "SW52ZW50b3J5Lkl0ZW0uSXRlbUlkEhIKCnBva2Vtb25faWQYAiABKAYiSwoV",
+            "VXNlSXRlbVhwQm9vc3RNZXNzYWdlEjIKB2l0ZW1faWQYASABKA4yIS5QT0dP",
+            "UHJvdG9zLkludmVudG9yeS5JdGVtLkl0ZW1JZCInChZWZXJpZnlDaGFsbGVu",
+            "Z2VNZXNzYWdlEg0KBXRva2VuGAEgASgJUABQAVACUANiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::POGOProtos.Inventory.Item.POGOProtosInventoryItemReflection.Descriptor, global::POGOProtos.Data.Battle.POGOProtosDataBattleReflection.Descriptor, global::POGOProtos.Enums.POGOProtosEnumsReflection.Descriptor, global::POGOProtos.Data.Player.POGOProtosDataPlayerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -133,6 +140,7 @@ namespace POGOProtos.Networking.Requests.Messages {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.AttackGymMessage), global::POGOProtos.Networking.Requests.Messages.AttackGymMessage.Parser, new[]{ "GymId", "BattleId", "AttackActions", "LastRetrievedActions", "PlayerLatitude", "PlayerLongitude" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.CatchPokemonMessage), global::POGOProtos.Networking.Requests.Messages.CatchPokemonMessage.Parser, new[]{ "EncounterId", "Pokeball", "NormalizedReticleSize", "SpawnPointId", "HitPokemon", "SpinModifier", "NormalizedHitPosition" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.CheckAwardedBadgesMessage), global::POGOProtos.Networking.Requests.Messages.CheckAwardedBadgesMessage.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.CheckChallengeMessage), global::POGOProtos.Networking.Requests.Messages.CheckChallengeMessage.Parser, new[]{ "DebugRequest" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.CheckCodenameAvailableMessage), global::POGOProtos.Networking.Requests.Messages.CheckCodenameAvailableMessage.Parser, new[]{ "Codename" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.ClaimCodenameMessage), global::POGOProtos.Networking.Requests.Messages.ClaimCodenameMessage.Parser, new[]{ "Codename" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.CollectDailyBonusMessage), global::POGOProtos.Networking.Requests.Messages.CollectDailyBonusMessage.Parser, null, null, null, null),
@@ -151,13 +159,14 @@ namespace POGOProtos.Networking.Requests.Messages {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.FortRecallPokemonMessage), global::POGOProtos.Networking.Requests.Messages.FortRecallPokemonMessage.Parser, new[]{ "FortId", "PokemonId", "PlayerLatitude", "PlayerLongitude" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.FortSearchMessage), global::POGOProtos.Networking.Requests.Messages.FortSearchMessage.Parser, new[]{ "FortId", "PlayerLatitude", "PlayerLongitude", "FortLatitude", "FortLongitude" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetAssetDigestMessage), global::POGOProtos.Networking.Requests.Messages.GetAssetDigestMessage.Parser, new[]{ "Platform", "DeviceManufacturer", "DeviceModel", "Locale", "AppVersion" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetBuddyWalkedMessage), global::POGOProtos.Networking.Requests.Messages.GetBuddyWalkedMessage.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetDownloadUrlsMessage), global::POGOProtos.Networking.Requests.Messages.GetDownloadUrlsMessage.Parser, new[]{ "AssetId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetGymDetailsMessage), global::POGOProtos.Networking.Requests.Messages.GetGymDetailsMessage.Parser, new[]{ "GymId", "PlayerLatitude", "PlayerLongitude", "GymLatitude", "GymLongitude" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetGymDetailsMessage), global::POGOProtos.Networking.Requests.Messages.GetGymDetailsMessage.Parser, new[]{ "GymId", "PlayerLatitude", "PlayerLongitude", "GymLatitude", "GymLongitude", "ClientVersion" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetHatchedEggsMessage), global::POGOProtos.Networking.Requests.Messages.GetHatchedEggsMessage.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetIncensePokemonMessage), global::POGOProtos.Networking.Requests.Messages.GetIncensePokemonMessage.Parser, new[]{ "PlayerLatitude", "PlayerLongitude" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetInventoryMessage), global::POGOProtos.Networking.Requests.Messages.GetInventoryMessage.Parser, new[]{ "LastTimestampMs", "ItemBeenSeen" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetMapObjectsMessage), global::POGOProtos.Networking.Requests.Messages.GetMapObjectsMessage.Parser, new[]{ "CellId", "SinceTimestampMs", "Latitude", "Longitude" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage), global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage), global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Parser, new[]{ "PlayerLocale" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Types.PlayerLocale), global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Types.PlayerLocale.Parser, new[]{ "Country", "Language" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetPlayerProfileMessage), global::POGOProtos.Networking.Requests.Messages.GetPlayerProfileMessage.Parser, new[]{ "PlayerName" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.GetSuggestedCodenamesMessage), global::POGOProtos.Networking.Requests.Messages.GetSuggestedCodenamesMessage.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.IncenseEncounterMessage), global::POGOProtos.Networking.Requests.Messages.IncenseEncounterMessage.Parser, new[]{ "EncounterId", "EncounterLocation" }, null, null, null),
@@ -168,6 +177,7 @@ namespace POGOProtos.Networking.Requests.Messages {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.RecycleInventoryItemMessage), global::POGOProtos.Networking.Requests.Messages.RecycleInventoryItemMessage.Parser, new[]{ "ItemId", "Count" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.ReleasePokemonMessage), global::POGOProtos.Networking.Requests.Messages.ReleasePokemonMessage.Parser, new[]{ "PokemonId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.SetAvatarMessage), global::POGOProtos.Networking.Requests.Messages.SetAvatarMessage.Parser, new[]{ "PlayerAvatar" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.SetBuddyPokemonMessage), global::POGOProtos.Networking.Requests.Messages.SetBuddyPokemonMessage.Parser, new[]{ "PokemonId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.SetContactSettingsMessage), global::POGOProtos.Networking.Requests.Messages.SetContactSettingsMessage.Parser, new[]{ "ContactSettings" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.SetFavoritePokemonMessage), global::POGOProtos.Networking.Requests.Messages.SetFavoritePokemonMessage.Parser, new[]{ "PokemonId", "IsFavorite" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.SetPlayerTeamMessage), global::POGOProtos.Networking.Requests.Messages.SetPlayerTeamMessage.Parser, new[]{ "Team" }, null, null, null),
@@ -175,12 +185,13 @@ namespace POGOProtos.Networking.Requests.Messages {
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.StartGymBattleMessage), global::POGOProtos.Networking.Requests.Messages.StartGymBattleMessage.Parser, new[]{ "GymId", "AttackingPokemonIds", "DefendingPokemonId", "PlayerLatitude", "PlayerLongitude" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UpgradePokemonMessage), global::POGOProtos.Networking.Requests.Messages.UpgradePokemonMessage.Parser, new[]{ "PokemonId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseIncenseMessage), global::POGOProtos.Networking.Requests.Messages.UseIncenseMessage.Parser, new[]{ "IncenseType" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseItemCaptureMessage), global::POGOProtos.Networking.Requests.Messages.UseItemCaptureMessage.Parser, new[]{ "ItemId", "EncounterId", "SpawnPointGuid" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseItemCaptureMessage), global::POGOProtos.Networking.Requests.Messages.UseItemCaptureMessage.Parser, new[]{ "ItemId", "EncounterId", "SpawnPointId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseItemEggIncubatorMessage), global::POGOProtos.Networking.Requests.Messages.UseItemEggIncubatorMessage.Parser, new[]{ "ItemId", "PokemonId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseItemGymMessage), global::POGOProtos.Networking.Requests.Messages.UseItemGymMessage.Parser, new[]{ "ItemId", "GymId", "PlayerLatitude", "PlayerLongitude" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseItemPotionMessage), global::POGOProtos.Networking.Requests.Messages.UseItemPotionMessage.Parser, new[]{ "ItemId", "PokemonId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseItemReviveMessage), global::POGOProtos.Networking.Requests.Messages.UseItemReviveMessage.Parser, new[]{ "ItemId", "PokemonId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseItemXpBoostMessage), global::POGOProtos.Networking.Requests.Messages.UseItemXpBoostMessage.Parser, new[]{ "ItemId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.UseItemXpBoostMessage), global::POGOProtos.Networking.Requests.Messages.UseItemXpBoostMessage.Parser, new[]{ "ItemId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::POGOProtos.Networking.Requests.Messages.VerifyChallengeMessage), global::POGOProtos.Networking.Requests.Messages.VerifyChallengeMessage.Parser, new[]{ "Token" }, null, null, null)
           }));
     }
     #endregion
@@ -1020,6 +1031,123 @@ namespace POGOProtos.Networking.Requests.Messages {
 
   }
 
+  public sealed partial class CheckChallengeMessage : pb::IMessage<CheckChallengeMessage> {
+    private static readonly pb::MessageParser<CheckChallengeMessage> _parser = new pb::MessageParser<CheckChallengeMessage>(() => new CheckChallengeMessage());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<CheckChallengeMessage> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CheckChallengeMessage() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CheckChallengeMessage(CheckChallengeMessage other) : this() {
+      debugRequest_ = other.debugRequest_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public CheckChallengeMessage Clone() {
+      return new CheckChallengeMessage(this);
+    }
+
+    /// <summary>Field number for the "debug_request" field.</summary>
+    public const int DebugRequestFieldNumber = 1;
+    private bool debugRequest_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool DebugRequest {
+      get { return debugRequest_; }
+      set {
+        debugRequest_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as CheckChallengeMessage);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(CheckChallengeMessage other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (DebugRequest != other.DebugRequest) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (DebugRequest != false) hash ^= DebugRequest.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (DebugRequest != false) {
+        output.WriteRawTag(8);
+        output.WriteBool(DebugRequest);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (DebugRequest != false) {
+        size += 1 + 1;
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(CheckChallengeMessage other) {
+      if (other == null) {
+        return;
+      }
+      if (other.DebugRequest != false) {
+        DebugRequest = other.DebugRequest;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            DebugRequest = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class CheckCodenameAvailableMessage : pb::IMessage<CheckCodenameAvailableMessage> {
     private static readonly pb::MessageParser<CheckCodenameAvailableMessage> _parser = new pb::MessageParser<CheckCodenameAvailableMessage>(() => new CheckCodenameAvailableMessage());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1027,7 +1155,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[4]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1144,7 +1272,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[5]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1264,7 +1392,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[6]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1356,7 +1484,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[7]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1445,7 +1573,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[8]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1649,7 +1777,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[9]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1738,7 +1866,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[10]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1967,7 +2095,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[11]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2087,7 +2215,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[12]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2176,7 +2304,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[13]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2377,7 +2505,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[14]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2494,7 +2622,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[15]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2611,7 +2739,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[16]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2728,7 +2856,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[17]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2842,8 +2970,8 @@ namespace POGOProtos.Networking.Requests.Messages {
         output.WriteString(FortId);
       }
       if (PokemonId != 0UL) {
-        output.WriteRawTag(16);
-        output.WriteUInt64(PokemonId);
+        output.WriteRawTag(17);
+        output.WriteFixed64(PokemonId);
       }
       if (PlayerLatitude != 0D) {
         output.WriteRawTag(25);
@@ -2862,7 +2990,7 @@ namespace POGOProtos.Networking.Requests.Messages {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(FortId);
       }
       if (PokemonId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PokemonId);
+        size += 1 + 8;
       }
       if (PlayerLatitude != 0D) {
         size += 1 + 8;
@@ -2904,8 +3032,8 @@ namespace POGOProtos.Networking.Requests.Messages {
             FortId = input.ReadString();
             break;
           }
-          case 16: {
-            PokemonId = input.ReadUInt64();
+          case 17: {
+            PokemonId = input.ReadFixed64();
             break;
           }
           case 25: {
@@ -2929,7 +3057,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[18]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3102,7 +3230,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[19]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3216,8 +3344,8 @@ namespace POGOProtos.Networking.Requests.Messages {
         output.WriteString(FortId);
       }
       if (PokemonId != 0UL) {
-        output.WriteRawTag(16);
-        output.WriteUInt64(PokemonId);
+        output.WriteRawTag(17);
+        output.WriteFixed64(PokemonId);
       }
       if (PlayerLatitude != 0D) {
         output.WriteRawTag(25);
@@ -3236,7 +3364,7 @@ namespace POGOProtos.Networking.Requests.Messages {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(FortId);
       }
       if (PokemonId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PokemonId);
+        size += 1 + 8;
       }
       if (PlayerLatitude != 0D) {
         size += 1 + 8;
@@ -3278,8 +3406,8 @@ namespace POGOProtos.Networking.Requests.Messages {
             FortId = input.ReadString();
             break;
           }
-          case 16: {
-            PokemonId = input.ReadUInt64();
+          case 17: {
+            PokemonId = input.ReadFixed64();
             break;
           }
           case 25: {
@@ -3303,7 +3431,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[20]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3532,7 +3660,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[21]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3754,6 +3882,95 @@ namespace POGOProtos.Networking.Requests.Messages {
 
   }
 
+  public sealed partial class GetBuddyWalkedMessage : pb::IMessage<GetBuddyWalkedMessage> {
+    private static readonly pb::MessageParser<GetBuddyWalkedMessage> _parser = new pb::MessageParser<GetBuddyWalkedMessage>(() => new GetBuddyWalkedMessage());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetBuddyWalkedMessage> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[23]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetBuddyWalkedMessage() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetBuddyWalkedMessage(GetBuddyWalkedMessage other) : this() {
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetBuddyWalkedMessage Clone() {
+      return new GetBuddyWalkedMessage(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetBuddyWalkedMessage);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetBuddyWalkedMessage other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetBuddyWalkedMessage other) {
+      if (other == null) {
+        return;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+        }
+      }
+    }
+
+  }
+
   public sealed partial class GetDownloadUrlsMessage : pb::IMessage<GetDownloadUrlsMessage> {
     private static readonly pb::MessageParser<GetDownloadUrlsMessage> _parser = new pb::MessageParser<GetDownloadUrlsMessage>(() => new GetDownloadUrlsMessage());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3761,7 +3978,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[22]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3870,7 +4087,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[23]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3892,6 +4109,7 @@ namespace POGOProtos.Networking.Requests.Messages {
       playerLongitude_ = other.playerLongitude_;
       gymLatitude_ = other.gymLatitude_;
       gymLongitude_ = other.gymLongitude_;
+      clientVersion_ = other.clientVersion_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3954,6 +4172,17 @@ namespace POGOProtos.Networking.Requests.Messages {
       }
     }
 
+    /// <summary>Field number for the "client_version" field.</summary>
+    public const int ClientVersionFieldNumber = 6;
+    private string clientVersion_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ClientVersion {
+      get { return clientVersion_; }
+      set {
+        clientVersion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GetGymDetailsMessage);
@@ -3972,6 +4201,7 @@ namespace POGOProtos.Networking.Requests.Messages {
       if (PlayerLongitude != other.PlayerLongitude) return false;
       if (GymLatitude != other.GymLatitude) return false;
       if (GymLongitude != other.GymLongitude) return false;
+      if (ClientVersion != other.ClientVersion) return false;
       return true;
     }
 
@@ -3983,6 +4213,7 @@ namespace POGOProtos.Networking.Requests.Messages {
       if (PlayerLongitude != 0D) hash ^= PlayerLongitude.GetHashCode();
       if (GymLatitude != 0D) hash ^= GymLatitude.GetHashCode();
       if (GymLongitude != 0D) hash ^= GymLongitude.GetHashCode();
+      if (ClientVersion.Length != 0) hash ^= ClientVersion.GetHashCode();
       return hash;
     }
 
@@ -4013,6 +4244,10 @@ namespace POGOProtos.Networking.Requests.Messages {
         output.WriteRawTag(41);
         output.WriteDouble(GymLongitude);
       }
+      if (ClientVersion.Length != 0) {
+        output.WriteRawTag(50);
+        output.WriteString(ClientVersion);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4032,6 +4267,9 @@ namespace POGOProtos.Networking.Requests.Messages {
       }
       if (GymLongitude != 0D) {
         size += 1 + 8;
+      }
+      if (ClientVersion.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientVersion);
       }
       return size;
     }
@@ -4055,6 +4293,9 @@ namespace POGOProtos.Networking.Requests.Messages {
       }
       if (other.GymLongitude != 0D) {
         GymLongitude = other.GymLongitude;
+      }
+      if (other.ClientVersion.Length != 0) {
+        ClientVersion = other.ClientVersion;
       }
     }
 
@@ -4086,6 +4327,10 @@ namespace POGOProtos.Networking.Requests.Messages {
             GymLongitude = input.ReadDouble();
             break;
           }
+          case 50: {
+            ClientVersion = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -4102,7 +4347,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[24]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4191,7 +4436,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[25]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4336,7 +4581,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[26]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4484,7 +4729,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[27]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4664,9 +4909,6 @@ namespace POGOProtos.Networking.Requests.Messages {
 
   }
 
-  /// <summary>
-  ///  No message needed.
-  /// </summary>
   public sealed partial class GetPlayerMessage : pb::IMessage<GetPlayerMessage> {
     private static readonly pb::MessageParser<GetPlayerMessage> _parser = new pb::MessageParser<GetPlayerMessage>(() => new GetPlayerMessage());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4674,7 +4916,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[28]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4691,11 +4933,23 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetPlayerMessage(GetPlayerMessage other) : this() {
+      PlayerLocale = other.playerLocale_ != null ? other.PlayerLocale.Clone() : null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetPlayerMessage Clone() {
       return new GetPlayerMessage(this);
+    }
+
+    /// <summary>Field number for the "player_locale" field.</summary>
+    public const int PlayerLocaleFieldNumber = 1;
+    private global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Types.PlayerLocale playerLocale_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Types.PlayerLocale PlayerLocale {
+      get { return playerLocale_; }
+      set {
+        playerLocale_ = value;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4711,12 +4965,14 @@ namespace POGOProtos.Networking.Requests.Messages {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!object.Equals(PlayerLocale, other.PlayerLocale)) return false;
       return true;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (playerLocale_ != null) hash ^= PlayerLocale.GetHashCode();
       return hash;
     }
 
@@ -4727,11 +4983,18 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
+      if (playerLocale_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(PlayerLocale);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (playerLocale_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlayerLocale);
+      }
       return size;
     }
 
@@ -4739,6 +5002,12 @@ namespace POGOProtos.Networking.Requests.Messages {
     public void MergeFrom(GetPlayerMessage other) {
       if (other == null) {
         return;
+      }
+      if (other.playerLocale_ != null) {
+        if (playerLocale_ == null) {
+          playerLocale_ = new global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Types.PlayerLocale();
+        }
+        PlayerLocale.MergeFrom(other.PlayerLocale);
       }
     }
 
@@ -4750,9 +5019,168 @@ namespace POGOProtos.Networking.Requests.Messages {
           default:
             input.SkipLastField();
             break;
+          case 10: {
+            if (playerLocale_ == null) {
+              playerLocale_ = new global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Types.PlayerLocale();
+            }
+            input.ReadMessage(playerLocale_);
+            break;
+          }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the GetPlayerMessage message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class PlayerLocale : pb::IMessage<PlayerLocale> {
+        private static readonly pb::MessageParser<PlayerLocale> _parser = new pb::MessageParser<PlayerLocale>(() => new PlayerLocale());
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<PlayerLocale> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::POGOProtos.Networking.Requests.Messages.GetPlayerMessage.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public PlayerLocale() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public PlayerLocale(PlayerLocale other) : this() {
+          country_ = other.country_;
+          language_ = other.language_;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public PlayerLocale Clone() {
+          return new PlayerLocale(this);
+        }
+
+        /// <summary>Field number for the "country" field.</summary>
+        public const int CountryFieldNumber = 1;
+        private string country_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Country {
+          get { return country_; }
+          set {
+            country_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "language" field.</summary>
+        public const int LanguageFieldNumber = 2;
+        private string language_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Language {
+          get { return language_; }
+          set {
+            language_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as PlayerLocale);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(PlayerLocale other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Country != other.Country) return false;
+          if (Language != other.Language) return false;
+          return true;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Country.Length != 0) hash ^= Country.GetHashCode();
+          if (Language.Length != 0) hash ^= Language.GetHashCode();
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Country.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Country);
+          }
+          if (Language.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(Language);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Country.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Country);
+          }
+          if (Language.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Language);
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(PlayerLocale other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Country.Length != 0) {
+            Country = other.Country;
+          }
+          if (other.Language.Length != 0) {
+            Language = other.Language;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                input.SkipLastField();
+                break;
+              case 10: {
+                Country = input.ReadString();
+                break;
+              }
+              case 18: {
+                Language = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
 
   }
 
@@ -4763,7 +5191,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[29]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4883,7 +5311,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[30]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4972,7 +5400,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[31]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5000,9 +5428,9 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     /// <summary>Field number for the "encounter_id" field.</summary>
     public const int EncounterIdFieldNumber = 1;
-    private long encounterId_;
+    private ulong encounterId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long EncounterId {
+    public ulong EncounterId {
       get { return encounterId_; }
       set {
         encounterId_ = value;
@@ -5041,7 +5469,7 @@ namespace POGOProtos.Networking.Requests.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (EncounterId != 0L) hash ^= EncounterId.GetHashCode();
+      if (EncounterId != 0UL) hash ^= EncounterId.GetHashCode();
       if (EncounterLocation.Length != 0) hash ^= EncounterLocation.GetHashCode();
       return hash;
     }
@@ -5053,9 +5481,9 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (EncounterId != 0L) {
+      if (EncounterId != 0UL) {
         output.WriteRawTag(8);
-        output.WriteInt64(EncounterId);
+        output.WriteUInt64(EncounterId);
       }
       if (EncounterLocation.Length != 0) {
         output.WriteRawTag(18);
@@ -5066,8 +5494,8 @@ namespace POGOProtos.Networking.Requests.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (EncounterId != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(EncounterId);
+      if (EncounterId != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(EncounterId);
       }
       if (EncounterLocation.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(EncounterLocation);
@@ -5080,7 +5508,7 @@ namespace POGOProtos.Networking.Requests.Messages {
       if (other == null) {
         return;
       }
-      if (other.EncounterId != 0L) {
+      if (other.EncounterId != 0UL) {
         EncounterId = other.EncounterId;
       }
       if (other.EncounterLocation.Length != 0) {
@@ -5097,7 +5525,7 @@ namespace POGOProtos.Networking.Requests.Messages {
             input.SkipLastField();
             break;
           case 8: {
-            EncounterId = input.ReadInt64();
+            EncounterId = input.ReadUInt64();
             break;
           }
           case 18: {
@@ -5117,7 +5545,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[32]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5234,7 +5662,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[33]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5400,7 +5828,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[34]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5545,7 +5973,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[35]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5690,7 +6118,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[36]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5835,7 +6263,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[37]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5952,7 +6380,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[38]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6068,6 +6496,123 @@ namespace POGOProtos.Networking.Requests.Messages {
 
   }
 
+  public sealed partial class SetBuddyPokemonMessage : pb::IMessage<SetBuddyPokemonMessage> {
+    private static readonly pb::MessageParser<SetBuddyPokemonMessage> _parser = new pb::MessageParser<SetBuddyPokemonMessage>(() => new SetBuddyPokemonMessage());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SetBuddyPokemonMessage> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[41]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetBuddyPokemonMessage() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetBuddyPokemonMessage(SetBuddyPokemonMessage other) : this() {
+      pokemonId_ = other.pokemonId_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SetBuddyPokemonMessage Clone() {
+      return new SetBuddyPokemonMessage(this);
+    }
+
+    /// <summary>Field number for the "pokemon_id" field.</summary>
+    public const int PokemonIdFieldNumber = 1;
+    private ulong pokemonId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ulong PokemonId {
+      get { return pokemonId_; }
+      set {
+        pokemonId_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SetBuddyPokemonMessage);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SetBuddyPokemonMessage other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PokemonId != other.PokemonId) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PokemonId != 0UL) hash ^= PokemonId.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PokemonId != 0UL) {
+        output.WriteRawTag(9);
+        output.WriteFixed64(PokemonId);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PokemonId != 0UL) {
+        size += 1 + 8;
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SetBuddyPokemonMessage other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PokemonId != 0UL) {
+        PokemonId = other.PokemonId;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 9: {
+            PokemonId = input.ReadFixed64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class SetContactSettingsMessage : pb::IMessage<SetContactSettingsMessage> {
     private static readonly pb::MessageParser<SetContactSettingsMessage> _parser = new pb::MessageParser<SetContactSettingsMessage>(() => new SetContactSettingsMessage());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6075,7 +6620,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[39]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6198,7 +6743,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[40]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6226,9 +6771,12 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     /// <summary>Field number for the "pokemon_id" field.</summary>
     public const int PokemonIdFieldNumber = 1;
-    private ulong pokemonId_;
+    private long pokemonId_;
+    /// <summary>
+    ///  Do not change https://github.com/AeonLucid/POGOProtos/pull/126
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ulong PokemonId {
+    public long PokemonId {
       get { return pokemonId_; }
       set {
         pokemonId_ = value;
@@ -6267,7 +6815,7 @@ namespace POGOProtos.Networking.Requests.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (PokemonId != 0UL) hash ^= PokemonId.GetHashCode();
+      if (PokemonId != 0L) hash ^= PokemonId.GetHashCode();
       if (IsFavorite != false) hash ^= IsFavorite.GetHashCode();
       return hash;
     }
@@ -6279,9 +6827,9 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (PokemonId != 0UL) {
+      if (PokemonId != 0L) {
         output.WriteRawTag(8);
-        output.WriteUInt64(PokemonId);
+        output.WriteInt64(PokemonId);
       }
       if (IsFavorite != false) {
         output.WriteRawTag(16);
@@ -6292,8 +6840,8 @@ namespace POGOProtos.Networking.Requests.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (PokemonId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PokemonId);
+      if (PokemonId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(PokemonId);
       }
       if (IsFavorite != false) {
         size += 1 + 1;
@@ -6306,7 +6854,7 @@ namespace POGOProtos.Networking.Requests.Messages {
       if (other == null) {
         return;
       }
-      if (other.PokemonId != 0UL) {
+      if (other.PokemonId != 0L) {
         PokemonId = other.PokemonId;
       }
       if (other.IsFavorite != false) {
@@ -6323,7 +6871,7 @@ namespace POGOProtos.Networking.Requests.Messages {
             input.SkipLastField();
             break;
           case 8: {
-            PokemonId = input.ReadUInt64();
+            PokemonId = input.ReadInt64();
             break;
           }
           case 16: {
@@ -6343,7 +6891,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[41]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6463,7 +7011,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[42]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6552,7 +7100,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[43]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6605,6 +7153,9 @@ namespace POGOProtos.Networking.Requests.Messages {
     /// <summary>Field number for the "defending_pokemon_id" field.</summary>
     public const int DefendingPokemonIdFieldNumber = 3;
     private ulong defendingPokemonId_;
+    /// <summary>
+    ///  needs to be fixed64, tested by Grover
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ulong DefendingPokemonId {
       get { return defendingPokemonId_; }
@@ -6680,8 +7231,8 @@ namespace POGOProtos.Networking.Requests.Messages {
       }
       attackingPokemonIds_.WriteTo(output, _repeated_attackingPokemonIds_codec);
       if (DefendingPokemonId != 0UL) {
-        output.WriteRawTag(24);
-        output.WriteUInt64(DefendingPokemonId);
+        output.WriteRawTag(25);
+        output.WriteFixed64(DefendingPokemonId);
       }
       if (PlayerLatitude != 0D) {
         output.WriteRawTag(33);
@@ -6701,7 +7252,7 @@ namespace POGOProtos.Networking.Requests.Messages {
       }
       size += attackingPokemonIds_.CalculateSize(_repeated_attackingPokemonIds_codec);
       if (DefendingPokemonId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(DefendingPokemonId);
+        size += 1 + 8;
       }
       if (PlayerLatitude != 0D) {
         size += 1 + 8;
@@ -6749,8 +7300,8 @@ namespace POGOProtos.Networking.Requests.Messages {
             attackingPokemonIds_.AddEntriesFrom(input, _repeated_attackingPokemonIds_codec);
             break;
           }
-          case 24: {
-            DefendingPokemonId = input.ReadUInt64();
+          case 25: {
+            DefendingPokemonId = input.ReadFixed64();
             break;
           }
           case 33: {
@@ -6774,7 +7325,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[44]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6842,8 +7393,8 @@ namespace POGOProtos.Networking.Requests.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       if (PokemonId != 0UL) {
-        output.WriteRawTag(8);
-        output.WriteUInt64(PokemonId);
+        output.WriteRawTag(9);
+        output.WriteFixed64(PokemonId);
       }
     }
 
@@ -6851,7 +7402,7 @@ namespace POGOProtos.Networking.Requests.Messages {
     public int CalculateSize() {
       int size = 0;
       if (PokemonId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PokemonId);
+        size += 1 + 8;
       }
       return size;
     }
@@ -6874,8 +7425,8 @@ namespace POGOProtos.Networking.Requests.Messages {
           default:
             input.SkipLastField();
             break;
-          case 8: {
-            PokemonId = input.ReadUInt64();
+          case 9: {
+            PokemonId = input.ReadFixed64();
             break;
           }
         }
@@ -6891,7 +7442,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[45]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7008,7 +7559,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[46]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7027,7 +7578,7 @@ namespace POGOProtos.Networking.Requests.Messages {
     public UseItemCaptureMessage(UseItemCaptureMessage other) : this() {
       itemId_ = other.itemId_;
       encounterId_ = other.encounterId_;
-      spawnPointGuid_ = other.spawnPointGuid_;
+      spawnPointId_ = other.spawnPointId_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7057,14 +7608,14 @@ namespace POGOProtos.Networking.Requests.Messages {
       }
     }
 
-    /// <summary>Field number for the "spawn_point_guid" field.</summary>
-    public const int SpawnPointGuidFieldNumber = 3;
-    private string spawnPointGuid_ = "";
+    /// <summary>Field number for the "spawn_point_id" field.</summary>
+    public const int SpawnPointIdFieldNumber = 3;
+    private string spawnPointId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string SpawnPointGuid {
-      get { return spawnPointGuid_; }
+    public string SpawnPointId {
+      get { return spawnPointId_; }
       set {
-        spawnPointGuid_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        spawnPointId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
     }
 
@@ -7083,7 +7634,7 @@ namespace POGOProtos.Networking.Requests.Messages {
       }
       if (ItemId != other.ItemId) return false;
       if (EncounterId != other.EncounterId) return false;
-      if (SpawnPointGuid != other.SpawnPointGuid) return false;
+      if (SpawnPointId != other.SpawnPointId) return false;
       return true;
     }
 
@@ -7092,7 +7643,7 @@ namespace POGOProtos.Networking.Requests.Messages {
       int hash = 1;
       if (ItemId != 0) hash ^= ItemId.GetHashCode();
       if (EncounterId != 0UL) hash ^= EncounterId.GetHashCode();
-      if (SpawnPointGuid.Length != 0) hash ^= SpawnPointGuid.GetHashCode();
+      if (SpawnPointId.Length != 0) hash ^= SpawnPointId.GetHashCode();
       return hash;
     }
 
@@ -7111,9 +7662,9 @@ namespace POGOProtos.Networking.Requests.Messages {
         output.WriteRawTag(17);
         output.WriteFixed64(EncounterId);
       }
-      if (SpawnPointGuid.Length != 0) {
+      if (SpawnPointId.Length != 0) {
         output.WriteRawTag(26);
-        output.WriteString(SpawnPointGuid);
+        output.WriteString(SpawnPointId);
       }
     }
 
@@ -7126,8 +7677,8 @@ namespace POGOProtos.Networking.Requests.Messages {
       if (EncounterId != 0UL) {
         size += 1 + 8;
       }
-      if (SpawnPointGuid.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpawnPointGuid);
+      if (SpawnPointId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(SpawnPointId);
       }
       return size;
     }
@@ -7143,8 +7694,8 @@ namespace POGOProtos.Networking.Requests.Messages {
       if (other.EncounterId != 0UL) {
         EncounterId = other.EncounterId;
       }
-      if (other.SpawnPointGuid.Length != 0) {
-        SpawnPointGuid = other.SpawnPointGuid;
+      if (other.SpawnPointId.Length != 0) {
+        SpawnPointId = other.SpawnPointId;
       }
     }
 
@@ -7165,7 +7716,7 @@ namespace POGOProtos.Networking.Requests.Messages {
             break;
           }
           case 26: {
-            SpawnPointGuid = input.ReadString();
+            SpawnPointId = input.ReadString();
             break;
           }
         }
@@ -7181,7 +7732,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[47]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7326,7 +7877,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[48]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[51]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7527,7 +8078,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[49]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[52]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7613,8 +8164,8 @@ namespace POGOProtos.Networking.Requests.Messages {
         output.WriteEnum((int) ItemId);
       }
       if (PokemonId != 0UL) {
-        output.WriteRawTag(16);
-        output.WriteUInt64(PokemonId);
+        output.WriteRawTag(17);
+        output.WriteFixed64(PokemonId);
       }
     }
 
@@ -7625,7 +8176,7 @@ namespace POGOProtos.Networking.Requests.Messages {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ItemId);
       }
       if (PokemonId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PokemonId);
+        size += 1 + 8;
       }
       return size;
     }
@@ -7655,8 +8206,8 @@ namespace POGOProtos.Networking.Requests.Messages {
             itemId_ = (global::POGOProtos.Inventory.Item.ItemId) input.ReadEnum();
             break;
           }
-          case 16: {
-            PokemonId = input.ReadUInt64();
+          case 17: {
+            PokemonId = input.ReadFixed64();
             break;
           }
         }
@@ -7672,7 +8223,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[50]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[53]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7758,8 +8309,8 @@ namespace POGOProtos.Networking.Requests.Messages {
         output.WriteEnum((int) ItemId);
       }
       if (PokemonId != 0UL) {
-        output.WriteRawTag(16);
-        output.WriteUInt64(PokemonId);
+        output.WriteRawTag(17);
+        output.WriteFixed64(PokemonId);
       }
     }
 
@@ -7770,7 +8321,7 @@ namespace POGOProtos.Networking.Requests.Messages {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ItemId);
       }
       if (PokemonId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(PokemonId);
+        size += 1 + 8;
       }
       return size;
     }
@@ -7800,8 +8351,8 @@ namespace POGOProtos.Networking.Requests.Messages {
             itemId_ = (global::POGOProtos.Inventory.Item.ItemId) input.ReadEnum();
             break;
           }
-          case 16: {
-            PokemonId = input.ReadUInt64();
+          case 17: {
+            PokemonId = input.ReadFixed64();
             break;
           }
         }
@@ -7817,7 +8368,7 @@ namespace POGOProtos.Networking.Requests.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[51]; }
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[54]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7919,6 +8470,123 @@ namespace POGOProtos.Networking.Requests.Messages {
             break;
           case 8: {
             itemId_ = (global::POGOProtos.Inventory.Item.ItemId) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class VerifyChallengeMessage : pb::IMessage<VerifyChallengeMessage> {
+    private static readonly pb::MessageParser<VerifyChallengeMessage> _parser = new pb::MessageParser<VerifyChallengeMessage>(() => new VerifyChallengeMessage());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<VerifyChallengeMessage> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::POGOProtos.Networking.Requests.Messages.POGOProtosNetworkingRequestsMessagesReflection.Descriptor.MessageTypes[55]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public VerifyChallengeMessage() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public VerifyChallengeMessage(VerifyChallengeMessage other) : this() {
+      token_ = other.token_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public VerifyChallengeMessage Clone() {
+      return new VerifyChallengeMessage(this);
+    }
+
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 1;
+    private string token_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as VerifyChallengeMessage);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(VerifyChallengeMessage other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Token != other.Token) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Token.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Token);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(VerifyChallengeMessage other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 10: {
+            Token = input.ReadString();
             break;
           }
         }
